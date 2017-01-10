@@ -12,6 +12,8 @@ Key Points
 
 1. <b>Number of permutations possible with N elements is N!</b>
 2. Need access to a function or tool to generate a random number ( with uniform likelihood)
+3. Why only elements in right and not all elements? - If all elements , then each element has N ways to get replaced. The probability of each element is N<sup>N</sup>/N! which is not divisible hence could lead to repetitions/unequal likelihood
+4. Duplicates will not affect the solution
 
 
 
