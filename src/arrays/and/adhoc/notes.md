@@ -41,7 +41,7 @@ Say we are given access to a function that generates a random number in a given 
 ![PickRandomElement.JPG](PickRandomElement.JPG )
 
 Example 
-[[PickRandomElementExample.JPG]]
+![PickRandomElementExample.JPG](PickRandomElementExample.JPG)
 
 
 References
