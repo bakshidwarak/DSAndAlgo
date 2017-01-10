@@ -38,7 +38,7 @@ Say we are given access to a function that generates a random number in a given 
 	Space complexity is hence O(N*N!) ~ O(N!)
 
 2. <b>Optimal</b>Pick each element in the array and swap it with a random element on the right
-[[PickRandomElement.JPG]]
+![PickRandomElement.JPG](PickRandomElement.JPG )
 
 Example 
 [[PickRandomElementExample.JPG]]
