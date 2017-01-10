@@ -1,4 +1,4 @@
-package arrays.and.adhoc;
+package arrays.and.adhoc.shuffleNElements;
 
 import java.util.Arrays;
 import java.util.concurrent.ThreadLocalRandom;
