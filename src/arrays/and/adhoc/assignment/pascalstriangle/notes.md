@@ -15,11 +15,11 @@ Key Points
 
 2. Look for expressing any terms as a multiple or derivative of previous steps
     Here 
-    
+   <pre> 
     line          line
     	C    = 		  C	      * (line-j)/j
     	 j				j-1
-
+</pre>
 Derivation
  ![BinomailCoeffFormulaDerivation.jpg](BinomailCoeffFormulaDerivation.jpg)
 Key Questions to Ask
@@ -30,14 +30,15 @@ Approaches
 ====================
 
 1. Three approaches possible
-..1 Brute Forxe- Keep calculating binomial coeff for every entry O(n<sup>3</sup>) inefficient ( Two for loops and one loop to calculate binomial coff)
-..2 Using Arrays
+- Brute Forxe- Keep calculating binomial coeff for every entry O(n<sup>3</sup>) inefficient ( Two for loops and one loop to calculate binomial coff)
+- Using Arrays
         a`[i][j]=a[i-1][j-1]+a[i-1][j]`; for all i!=0 and i!=j
     This is O(n<sup>2</sup>) but uses O(n<sup>2</sup>) space
-..3 Keep a running product using the formula derived above		 
+- Keep a running product using the formula derived above		 
 
 Sample Output
 =====================
+<pre>
 Case 1 Happy path
 6
 
@@ -47,7 +48,7 @@ Case 1 Happy path
 1 3 3 1 
 1 4 6 4 1 
 1 5 10 10 5 1 
-
+</pre>
 References
 ====================
 http://www.geeksforgeeks.org/pascal-triangle/
