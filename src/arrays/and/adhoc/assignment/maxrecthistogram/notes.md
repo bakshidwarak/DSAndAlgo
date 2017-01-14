@@ -7,7 +7,7 @@ Max Area in a histogram
   For example, consider the following histogram with 7 bars of heights {6, 2,5,
   4, 5, 2, 6}. The largest possible rectangle possible is 12
   
-  ![histogram1.png](hist0gram1.png)
+  ![histogram1.png](histogram1.png)
   
 Key Points
 ====================
@@ -28,9 +28,9 @@ Approaches
 1. The key idea is to keep track of start and end of every sub-rectangle formed. When a bar is first read, it could either start a new sub rectangle or add to the previous rectangle 
   1. When will it start a new sub-rectangle? 
     1. When the value of the bar is < the bar to its left Add every new sub-rectangle to the stack
-    1. When will it add to the prev subrectangle ? 
+  1. When will it add to the prev subrectangle ? 
       1. when it is >= the previous previous bar- Keep pushing to the stack 
-    1. When will the current sub-rectangle end?
+  1. When will the current sub-rectangle end?
       1. When the value of the bar is < the bar to its left. It starts a new sub rectangle and ends the
 	  previous sub-rectangle. <b>Pop the previous bar out of the stack and calculate the area contributed by the bar to its sub rectangle</b>
 	  Maintain a running max and return the max rectangle
