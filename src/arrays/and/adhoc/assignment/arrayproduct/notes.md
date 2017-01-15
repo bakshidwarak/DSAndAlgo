@@ -42,3 +42,50 @@ References
 ====================
 http://stackoverflow.com/questions/2680548/given-an-array-of-numbers-return-array-of-products-of-all-other-numbers-no-div
 
+<div style="page-break-after: always;"></div>
+
+``` java
+int zeroesCount = 0;
+		int[] originalArray = new int[args.length];
+		int[] productsArray = new int[args.length];
+		// Initialize the array to 0s
+		for (int i = 0; i < productsArray.length; i++) {
+			productsArray[i] = 0;
+		}
+		// Convert the string Array to int array( Java intricacy)
+		for (int i = 0; i < args.length; i++) {
+			int intValue = Integer.parseInt(args[i]);
+			originalArray[i] = intValue;
+			if (intValue == 0)
+				zeroesCount++;// Count the number of zeroes
+		}
+		// If the number of zeroes is greater than 1 all the products will be
+		// zero
+		if (zeroesCount >= 2) {
+			printArray(productsArray);
+			return;
+		}
+		/**
+		 * a divides a*b*c i.e a*b*c is a multiple of a, which means if we need
+		 * to compute (a*b*c)/a , it is equivalent to not including a at all in
+		 * the product
+		 * 
+		 * (a*b*c)/a = b*c [ Not multiply by a at all in the first place
+		 * 
+		 * 
+		 * Hence first compute the cumulative products starting from 1 sans the
+		 * last item and again traverse back and compute the cumulative product
+		 * sans the first item
+		 */
+		int p = 1;
+		for (int i = 0; i < originalArray.length; i++) {
+			productsArray[i] = p;
+			p *= originalArray[i];
+		}
+		p = 1;
+		for (int i = originalArray.length - 1; i >= 0; i--) {
+			productsArray[i] *= p;
+			p *= originalArray[i];
+		}
+		printArray(productsArray);
+```
