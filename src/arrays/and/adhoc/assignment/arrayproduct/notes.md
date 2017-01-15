@@ -38,9 +38,6 @@ Sample Output
 Case 1 Happy path
 1 2 3 4 5
 120 60 40 30 24
-References
-====================
-http://stackoverflow.com/questions/2680548/given-an-array-of-numbers-return-array-of-products-of-all-other-numbers-no-div
 
 <div style="page-break-after: always;"></div>
 
@@ -89,3 +86,8 @@ int zeroesCount = 0;
 		}
 		printArray(productsArray);
 ```
+<div style="page-break-after: always;"></div>
+
+References
+====================
+http://stackoverflow.com/questions/2680548/given-an-array-of-numbers-return-array-of-products-of-all-other-numbers-no-div
