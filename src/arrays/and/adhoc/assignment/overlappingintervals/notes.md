@@ -11,7 +11,6 @@ merged and become {1, 4}. Similarly {5, 7} and {6, 8} should be merged and
 become {5, 8}
 
 
-<div style="page-break-after: always;"></div>
 
 Key Points
 ====================
