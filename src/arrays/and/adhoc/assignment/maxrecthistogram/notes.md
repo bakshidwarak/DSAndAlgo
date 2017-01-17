@@ -8,7 +8,8 @@ Max Area in a histogram
   4, 5, 2, 6}. The largest possible rectangle possible is 12
   
   ![histogram1.png](histogram1.png)
-  <div style="page-break-after: always;"></div>
+
+<div style="page-break-after: always;"></div>
   
 Key Points
 ====================
