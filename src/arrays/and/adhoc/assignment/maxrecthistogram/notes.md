@@ -35,27 +35,19 @@ Approaches
       1. When the value of the bar is < the bar to its left. It starts a new sub rectangle and ends the
 	  previous sub-rectangle. <b>Pop the previous bar out of the stack and calculate the area contributed by the bar to its sub rectangle</b>
 	  Maintain a running max and return the max rectangle
-	  
-	  
+	  	  
 <b>Calculating Area</b>
-
-
 Calculation of area is key in solving this.
- When we pop out a bar ( after encountering a bar < than the top) we need to
-				  calculate the area contributed by the bar being popped out.
+1. When we pop out a bar ( after encountering a bar < than the top) we need to calculate the area contributed by the bar being popped out.
 <pre>				  
 Area contributed by the popped bar= 
-           height of the bar  (
-				  number of contiguous bars >= height say M) 
-		  M=current index -
-				  new top of the stack -1
+           height of the bar * (number_of_contiguous_bars_greater_than_height)
+	   number_of_contiguous_bars_greater_than_height=current index - new_stck_top -1
 				  
-if after popping the stack is empty just multiply the height
-				  by the current index
+if after popping the stack is empty just multiply the height by the current index
 </pre>				  
 <b>After completion of array if the stack is still not empty, we need to pop out one at a time and calculate the area contributed by each area with same formula as above ( just that instead of index it will be the length of the array)
 </b>
-
  if the stack is empty which means we have encountered the least element in the array and hence we multiply it by the length of the array
  ``` java
 
