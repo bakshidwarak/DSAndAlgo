@@ -17,7 +17,7 @@ Key Points
 1. Dont overthink the approach.
 2. Sort the intervals by start time and a linear scan for each interval will solve in O(NLogN)
 2. <b> Make sure you handle first interval</b>
-3.Other solutions that came to my mind but didnt seem very elegant
+3. Other solutions that came to my mind but didnt seem very elegant
 	1. IntervalTrees - Takes NLogN to build and seems to be efficient for querying and my knowhow of Interval Trees is limited
 	2. Maintaining an array with indices ranging from 0 till the end time. For every interval add+1 to the array( O(N<sup>2</sup>)
 	3. Compare every interval with every other interval
@@ -36,7 +36,7 @@ Approaches
 
 1. Sort the input by start time( if creating a Interval class make sure it overrides compareTo)
 2. Track start and end time
-3.Iterate the input set
+3. Iterate the input set
 	..1 Check for first Node
 	..2 if interval.start < end && interval.end >=start( <b> We need to check both start and end because the interval could also be a sub interval eg (1,4) and (2,3)</b>
 	<b> Remember to get the max of the currentEnd time and interval's end time to handle sub intervals </b>
