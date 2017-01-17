@@ -15,7 +15,6 @@ become {5, 8}
 
 Key Points
 ====================
-
 1. Dont overthink the approach.
 2. Sort the intervals by start time and a linear scan for each interval will solve in O(NLogN)
 2. <b> Make sure you handle first interval</b>
