@@ -19,7 +19,7 @@ e.g. 1,2,-3 OR -3,7,-4
 * If there is a number '0' in the array, then it counts as a valid answer subarray.
 
 What would be the complexity of the solution, if we were to print all subsets that sum to zero (instead of just one)? 
-
+<div style="page-break-after: always;"></div>
 Key Points
 ====================
 
@@ -39,8 +39,22 @@ Approaches
 1. Idea is to keep storing sum and the corresponding index for sum till every element in a map. Lookup the sum from map each time , if the sum is already present then the total will be zero. The elements from the index of the sum till the current index is the subset
 3. Had to add one hack for handling zeroes
 4. If a number is zero it by itself forms the subarray with zero sum
- 
 
+``` java
+     
+     if (hashTable.containsKey(sum)) {
+				Integer startIndex = hashTable.get(sum);
+				String string = getArrayString(bars,startIndex, index );
+				subArrrays.add(string);
+				if(isZeroAdded){
+					subArrrays.add("0,"+string);
+				}
+			} else {
+				hashTable.put(sum, index);
+			}
+```
+ 
+<div style="page-break-after: always;"></div>
 Sample Output
 =====================
 <pre>

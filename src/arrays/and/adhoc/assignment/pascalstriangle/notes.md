@@ -8,6 +8,10 @@ Pascal’s triangle is a triangular array of the binomial coefficients. Write a 
 			1 3 3 1 
 			1 4 6 4 1 
 			1 5 10 10 5 1 
+
+
+<div style="page-break-after: always;"></div>
+
 Key Points
 ====================
 
@@ -34,7 +38,21 @@ Approaches
 - Using Arrays
         a`[i][j]=a[i-1][j-1]+a[i-1][j]`; for all i!=0 and i!=j
     This is O(n<sup>2</sup>) but uses O(n<sup>2</sup>) space
-- Keep a running product using the formula derived above		 
+- Keep a running product using the formula derived above	
+
+```java 
+  
+     for (int line = 1; line <= n; line++) {
+			int c = 1;
+			for (int j = 1; j <= line; j++) {
+				System.out.print(c + " ");
+				c = c * (line - j) / j;
+			}
+			System.out.println();
+
+		}
+```	 
+<div style="page-break-after: always;"></div>
 
 Sample Output
 =====================

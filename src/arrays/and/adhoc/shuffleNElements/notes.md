@@ -5,7 +5,7 @@ Example : Given an array {1,2,3} different permutations possible are
 2,3,1 | 1,2,3 | 1,3,2 | 2,1,3 | 3,1,2 | 3,2,1
 
 The algorithm should shuffle through the array and return a permutation in a such a way that any of the permutation listed above had a equal chance
-
+<div style="page-break-after: always;"></div>
 
 Key Points
 ====================
@@ -50,7 +50,7 @@ Say we are given access to a function that generates a random number in a given 
 Example 
 ![PickRandomElementExample.JPG](PickRandomElementExample.JPG)
 
-
+<div style="page-break-after: always;"></div>
 References
 ====================
 

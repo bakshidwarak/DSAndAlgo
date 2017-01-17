@@ -57,7 +57,7 @@ public class ArrayProduct {
 		 * last item and again traverse back and compute the cumulative product
 		 * sans the first item
 		 */
-		int p = 1;
+		int p = 1; 
 		for (int i = 0; i < originalArray.length; i++) {
 			productsArray[i] = p;
 			p *= originalArray[i];

@@ -9,7 +9,7 @@ For example, let the given set of intervals be {{1,3}, {2,4}, {5,7}, {6,8} }.
 The intervals {1,3} and {2,4} overlap with each other, so they should be
 merged and become {1, 4}. Similarly {5, 7} and {6, 8} should be merged and
 become {5, 8}
-
+<div style="page-break-after: always;"></div>
 Key Points
 ====================
 
@@ -43,6 +43,27 @@ Approaches
 	    ..1 Create an interval with  start and Max(current intervals end ,endInterval)  and add to the overlap set
 	    
 4. <b>Handle last interval</b>Finally add the current start and end to the overlapping interval
+
+``` java
+
+     for (Interval interval : originalIntervals) {
+			if (firstItem) {
+				lastStart = interval.getStart();
+				lastEnd = interval.getEnd();
+				firstItem = false;
+			}
+			if (interval.getStart() <= lastEnd && interval.getEnd() >= lastStart) {
+				lastEnd = Math.max(interval.getEnd(),lastEnd);
+			} else {
+				mergedIntervals.add(Interval.of(lastStart, lastEnd));
+				lastStart = interval.getStart();
+				lastEnd = interval.getEnd();
+			}
+	    }
+		mergedIntervals.add(Interval.of(lastStart, lastEnd));
+```
+
+<div style="page-break-after: always;"></div>
 
 Sample Output
 =====================

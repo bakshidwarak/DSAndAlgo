@@ -4,9 +4,9 @@ Given an array of integers, identify the subarray with maximum sum
 
 Example: 10 -6 -1 1 21 -25 15
 
-{1,21} has a sum of 22 which is the max
+{10,-6,-1,1,21} has a sum of 24 which is the max
 
-
+<div style="page-break-after: always;"></div>
 Key Points
 ====================
 
@@ -36,7 +36,7 @@ Approaches
   2. Go from left to right and <b>Keep track of cumulative sum</b>
   2. When the cumulative sum becomes <0, reset the cumulative sum to 0
   2. Idea is if after addition the the sum becomes lesser than zero the array traversed so far cannot have the max sum
-
+<div style="page-break-after: always;"></div>
 
 References
 ====================

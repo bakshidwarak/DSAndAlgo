@@ -8,6 +8,7 @@ Max Area in a histogram
   4, 5, 2, 6}. The largest possible rectangle possible is 12
   
   ![histogram1.png](histogram1.png)
+  <div style="page-break-after: always;"></div>
   
 Key Points
 ====================
@@ -56,7 +57,33 @@ if after popping the stack is empty just multiply the height
 </b>
 
  if the stack is empty which means we have encountered the least element in the array and hence we multiply it by the length of the array
+ ``` java
 
+    Deque<Integer> stack = new LinkedList<>();
+		int maxArea = 0;
+		for (int i = 0; i < a.length;) {
+			if (stack.isEmpty() || a[i] >= a[stack.peekFirst()]) {
+				stack.push(i++);
+			} else {
+				int index = stack.pop();
+
+				/**
+				 * Calculation of area is key in solving this. When we pop out a
+				 * bar ( after encountering a bar < than the top) we need to
+				 * calculate the area contributed by the bar being popped out.
+				 * 
+				 * Area contributed by the popped bar= height of the bar * (
+				 * number of contiguous bars >= height say M) M=current index -
+				 * new top of the stack -1
+				 * 
+				 * if after popping the stack is empty just multiply the height
+				 * by the current index
+				 */
+				int area = a[index] * (stack.isEmpty() ? i : i - stack.peekFirst() - 1);
+				maxArea = Math.max(maxArea, area);
+			}
+ ```
+ <div style="page-break-after: always;"></div>
 Sample Output
 =====================
 6,2,6,4,6,2

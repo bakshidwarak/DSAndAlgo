@@ -11,6 +11,7 @@ Hash Map or ordered map adheres to  the following interface
  
  Create a magic map that complies to that interface and Implement a get_random function that retruns a random value in O(1)
 
+<div style="page-break-after: always;"></div>
 
 Key Points
 ====================
@@ -37,7 +38,26 @@ Implement the magic map with following data structures
 <b>Note: We are not deleting an element from the array but implementing delete by managing the "size" </b>
 
 get_random will get a random number and return the value at its index
+``` java
 
+    ArrayList<Pair> pairsList = new ArrayList<>();
+	AtomicInteger size = new AtomicInteger();
+	HashMap<Object, Integer> map = new HashMap<>();
+	
+	//Delete
+	int index= map.get(key);
+		//swap the element of the index with the last element
+		Pair pairAtEnd=pairsList.get(size.get()-1);
+		swap(index,size.get()-1);
+		//Update in the map
+		map.put(pairAtEnd.getKey(), index);
+		//reduce size of the list
+		size.decrementAndGet();
+		//remove the element from the map
+		map.remove(key);
+
+```
+<div style="page-break-after: always;"></div>
 
 References
 ====================

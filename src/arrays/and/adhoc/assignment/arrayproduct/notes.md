@@ -6,6 +6,7 @@ Given an array of numbers, nums, return an array of numbers products, where prod
  (1`*`2`*`3`*`4)] = [120, 60, 40, 30, 24] You must do this in O(N) without using
  division.
 
+<div style="page-break-after: always;"></div>
 Key Points
 ====================
 
@@ -32,14 +33,9 @@ Hence first <b>compute the cumulative products starting from 1 sans the
 		  last item and again traverse back and compute the cumulative product
 		  sans the first item</b>
 		 
-
-Sample Output
-=====================
-Case 1 Happy path
-1 2 3 4 5
-120 60 40 30 24
-
 <div style="page-break-after: always;"></div>
+
+
 
 ``` java
 int zeroesCount = 0;
@@ -86,6 +82,13 @@ int zeroesCount = 0;
 		}
 		printArray(productsArray);
 ```
+
+Sample Output
+=====================
+Case 1 Happy path
+1 2 3 4 5
+120 60 40 30 24
+
 <div style="page-break-after: always;"></div>
 
 References
