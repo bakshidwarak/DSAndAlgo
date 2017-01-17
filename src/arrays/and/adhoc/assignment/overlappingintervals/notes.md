@@ -37,12 +37,12 @@ Approaches
 1. Sort the input by start time( if creating a Interval class make sure it overrides compareTo)
 2. Track start and end time
 3. Iterate the input set
-	..1 Check for first Node
-	..2 if interval.start < end && interval.end >=start( <b> We need to check both start and end because the interval could also be a sub interval eg (1,4) and (2,3)</b>
-	<b> Remember to get the max of the currentEnd time and interval's end time to handle sub intervals </b>
-		..1 Reset end to the current interval's end
-	..3 else
-	    ..1 Create an interval with  start and Max(current intervals end ,endInterval)  and add to the overlap set
+  1 Check for first Node
+  2 if interval.start < end && interval.end >=start(<b> We need to check both start and end because the interval could also be a sub interval eg (1,4) and (2,3)</b>
+    1 Remember to get the max of the currentEnd time and interval's end time to handle sub intervals </b>
+    2 Reset end to the current interval's end
+  3 else
+    1 Create an interval with  start and Max(current intervals end ,endInterval)  and add to the overlap set
 	    
 4. <b>Handle last interval</b>Finally add the current start and end to the overlapping interval
 
