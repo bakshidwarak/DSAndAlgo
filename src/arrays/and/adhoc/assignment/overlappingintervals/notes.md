@@ -13,6 +13,7 @@ become {5, 8}
 <div style="page-break-after: always;"></div>
 Key Points
 ====================
+
 1. Dont overthink the approach.
 2. Sort the intervals by start time and a linear scan for each interval will solve in O(NLogN)
 2. <b> Make sure you handle first interval</b>
@@ -26,6 +27,7 @@ Key Points
 
 Key Questions to Ask
 ====================
+
 1. Can I use additional data structures( like stacks or interval trees)
 2. Am I allowed to sort the input set
 
