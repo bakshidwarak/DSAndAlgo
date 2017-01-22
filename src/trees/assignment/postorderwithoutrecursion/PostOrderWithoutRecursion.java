@@ -6,6 +6,14 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
+/**
+ * Write a function to traverse a Binary tree PostOrder, without using
+ * recursion. As you traverse, please print contents of the nodes. (Bonus: Spend
+ * 1 minute more and also do it with recursion)
+ * 
+ * @author dwaraknathbs
+ *
+ */
 public class PostOrderWithoutRecursion {
 
 	static class Node {
@@ -82,19 +90,17 @@ public class PostOrderWithoutRecursion {
 
 			outputStack.push(n);
 
-			if(n.left!=null)
+			if (n.left != null)
 				stack.push(n.left);
-			
-			if(n.right!=null)
-			stack.push(n.right);
 
-		
+			if (n.right != null)
+				stack.push(n.right);
+
 		}
-		
-		while(!outputStack.isEmpty())
-		{
-			Node node=outputStack.pop();
-			System.out.print(node.val+ " ");
+
+		while (!outputStack.isEmpty()) {
+			Node node = outputStack.pop();
+			System.out.print(node.val + " ");
 		}
 
 	}
