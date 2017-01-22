@@ -8,6 +8,7 @@ Key Points
 
 1. Tree questions are mostly recursive
 1. If my left sub tree and right sub tree are BSTs and I am gretaer than my left element and lesser than my right I am BST
+1. Remeber the base case and the case when left or righ node could be null
 
 
 
