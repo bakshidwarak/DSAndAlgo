@@ -1,4 +1,4 @@
-Array Product excluding the ith element
+Find an element in a 2D Array
 ===========================================================================
 Find a number in a sorted 2D array.
 
