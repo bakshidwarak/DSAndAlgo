@@ -4,7 +4,25 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.StringTokenizer;
+/**
+ * Given a binary tree, print out all of its root-to-leaf paths one per line.
+ 
+e.g. for a tree that's 
+     1
+  2     3
+4 5  6 7
+ 
+Print:
+1 2 4
+1 2 5
+1 3 6
+1 3 7
+ 
+(This is a simple problem, but really tests your understanding of recursion)
 
+ * @author dwaraknathbs
+ *
+ */
 public class PrintAllPathsFromRootToLeaf {
 	static class Node {
 		int val;
