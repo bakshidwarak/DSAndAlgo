@@ -7,6 +7,14 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
+/**
+ * 
+ * Given a binary tree, we need to count the number of unival subtrees (all
+ * nodes that have the same value).
+ * 
+ * @author dwaraknathbs
+ *
+ */
 public class UnivalSubtree {
 	static class Node {
 		int val;
