@@ -39,12 +39,12 @@ public class PathFromWordToWord {
 	static Map<String, WordGraph> wordMap;
 
 	public static void main(String[] args) {
-		String[] words = { "cat", "bat", "hat", "had", "bad", "cot", "dot" };
+		String[] words = { "cat", "cot", "bat", "dot", "hat", "had", "bad" };
 		wordsDictionary.addAll(Arrays.asList(words));
 		wordMap = createGraph(wordsDictionary);
 		System.out.println(wordMap.size());
 
-		printPath("bat", "cat");
+		printPath("bat", "dot");
 	}
 
 	private static void printPath(String str1, String str2) {
