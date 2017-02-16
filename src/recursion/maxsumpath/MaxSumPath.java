@@ -2,8 +2,10 @@ package recursion.maxsumpath;
 
 import java.util.ArrayList;
 import java.util.Currency;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Scanner;
+import java.util.Set;
 
 /**
  * Given a 2D array of numbers , find the path with max sum
@@ -33,38 +35,36 @@ public class MaxSumPath {
 	private static void maxSumPath(int[][] arr) {
 		
 		List<List<Integer>> paths= new ArrayList<>();
-		List<Integer> currentPath= new ArrayList<>();
+		Set<Integer> currentPath= new HashSet<>();
 
 		System.out.println(maxPath(arr, 0, 0,paths,currentPath));
 		
-		paths.forEach(System.out::println);
+		currentPath.forEach(System.out::print);
 
 	}
 
-	private static int maxPath(int[][] arr, int i, int j, List<List<Integer>> paths, List<Integer> path) {
+	private static int maxPath(int[][] arr, int i, int j, List<List<Integer>> paths, Set<Integer> path) {
 		if (i == arr.length - 1 && j == arr.length - 1) {
 
-			path.add(arr[i][j]);
-			paths.add(new ArrayList<>(path));
 			
-			return arr[i][j];
+					return arr[i][j];
 		}
 		if(i>arr.length-1 || j>arr.length-1)
 			return 0;
 
-		path.add(arr[i][j]);
+		
 		int right = maxPath(arr, i, j + 1,paths,path);
 		
 //		
 		//path.add(arr[i][j]);
 		int down = maxPath(arr, i + 1, j,paths,path);
-		path.remove((path.size()-1));
+	
 		if (right > down) {
-			
+			path.add(arr[i][j+1]);
 			return right + arr[i][j];
 		} else {
 			
-			
+			path.add(arr[i+1][j]);
 
 			return down + arr[i][j];
 		}

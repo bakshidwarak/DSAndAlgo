@@ -59,7 +59,7 @@ public class LongestSubstringMatchingParanthesis {
 					/**
 					 * Pop the current element. The start of the current string
 					 * is given by the top of the stack. and the length is the
-					 * current index munis the start
+					 * current index minus the start
 					 */
 					stack.pop();
 					int start = stack.isEmpty() ? prevStart - 1 : stack.peek();
