@@ -33,8 +33,6 @@ import java.util.stream.Collectors;
  */
 public class RebuildBinaryTreeFromTraversals {
 
-	
-
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 
@@ -59,7 +57,7 @@ public class RebuildBinaryTreeFromTraversals {
 		constrctTree(_iInOrderArray, _iPreOrderArray);
 
 	}
-	
+
 	static class TreeNode {
 		int data;
 		TreeNode left;
@@ -76,10 +74,47 @@ public class RebuildBinaryTreeFromTraversals {
 		int inorderStart = 0;
 		int inorderEnd = inorderArray.length;
 		int preOrderStart = 0;
-		int preOrderEnd = preOrderArray.length-1;
+		int preOrderEnd = preOrderArray.length - 1;
 
 		TreeNode tree = getTree(inorderArray, preOrderArray, inorderStart, inorderEnd, preOrderStart, preOrderEnd);
 		printLevelOrder(tree);
+
+	}
+
+	/**
+	 * 
+	 * The element in preOrder array gives the root of the node. Find that
+	 * element in the inorder array, all elements to the left of the index in
+	 * inorder array forms the left subtree and the rest forms the right subtree
+	 * 
+	 * @param inorderArray
+	 * @param preOrderArray
+	 * @param inorderStart
+	 * @param inorderEnd
+	 * @param preOrderStart
+	 * @param preOrderEnd
+	 * @return
+	 */
+	private static TreeNode getTree(int[] inorderArray, int[] preOrderArray, int inorderStart, int inorderEnd,
+			int preOrderStart, int preOrderEnd) {
+		if (preOrderStart > preOrderEnd)
+			return null;
+		int data = preOrderArray[preOrderStart];
+		TreeNode node = new TreeNode(data);
+		for (int i = inorderStart; i < inorderEnd; i++) {
+			if (data == inorderArray[i]) {
+				/**
+				 * Its key to calculate the length
+				 */
+				int len = i - inorderStart;
+				node.left = getTree(inorderArray, preOrderArray, inorderStart, i + 1, preOrderStart + 1,
+						preOrderStart + len);
+				node.right = getTree(inorderArray, preOrderArray, i + 1, inorderEnd, preOrderStart + len + 1,
+						preOrderEnd);
+				break;
+			}
+		}
+		return node;
 
 	}
 
@@ -100,40 +135,22 @@ public class RebuildBinaryTreeFromTraversals {
 					map.put(currentLevel, treeList);
 				}
 
-				if(currentNode!=null){
-				queue.add(new Pair(currentNode.left, currentLevel + 1));
-				queue.add(new Pair(currentNode.right, currentLevel + 1));
+				if (currentNode != null) {
+					queue.add(new Pair(currentNode.left, currentLevel + 1));
+					queue.add(new Pair(currentNode.right, currentLevel + 1));
 				}
 			}
 		}
-		for(int i=1; i<=map.size();i++){
-			List<TreeNode> nodesAtLevel= map.get(i);
-			for(int k=0; k<nodesAtLevel.size();k++){
+		for (int i = 1; i <= map.size(); i++) {
+			List<TreeNode> nodesAtLevel = map.get(i);
+			for (int k = 0; k < nodesAtLevel.size(); k++) {
 				TreeNode treeNode = nodesAtLevel.get(k);
-				if(treeNode!=null)
-				System.out.print(treeNode.data+" ");
+				if (treeNode != null)
+					System.out.print(treeNode.data + " ");
 			}
-			
+
 			System.out.println();
 		}
-
-	}
-
-	private static TreeNode getTree(int[] inorderArray, int[] preOrderArray, int inorderStart, int inorderEnd,
-			int preOrderStart, int preOrderEnd) {
-		if (preOrderStart > preOrderEnd)
-			return null;// revisit
-		int data = preOrderArray[preOrderStart];
-		TreeNode node = new TreeNode(data);
-		for (int i = inorderStart; i < inorderEnd; i++) {
-			if (data == inorderArray[i]) {
-				int len=i-inorderStart;
-				node.left = getTree(inorderArray, preOrderArray, inorderStart, i + 1, preOrderStart + 1, preOrderStart + len);
-				node.right = getTree(inorderArray, preOrderArray, i + 1, inorderEnd, preOrderStart + len+1, preOrderEnd);
-				break;
-			}
-		}
-		return node;
 
 	}
 
