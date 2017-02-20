@@ -1,10 +1,24 @@
 package dp.assignment.robbery;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
+/**
+ * Robbery There are n houses built in a line, each of which contains some value
+ * in it. A thief is going to steal the maximal value in these houses, but he
+ * cannot steal in two adjacent houses because the owner of a stolen house will
+ * tell his two neighbors on the left and right side. What is the maximal stolen
+ * value?
+ * 
+ * For example, if there are four houses with values {6, 1, 2, 7}, the maximal
+ * stolen value is 13 when the first and fourth houses are stolen.
+ * 
+ * Solution:
+ * http://codercareer.blogspot.com/2013/02/no-44-maximal-stolen-values.html
+ * 
+ * @author dwaraknathbs
+ *
+ */
 public class Robbery {
 	public static void main(String[] args) throws IOException {
 		Scanner in = new Scanner(System.in);
@@ -21,27 +35,14 @@ public class Robbery {
 
 		res = maxStolenValue(_arrHouseValues);
 		System.out.println(String.valueOf(res));
+		in.close();
 
 	}
 
 	private static int maxStolenValue(int[] houses) {
 
-		// int[][] cache = new int[houses.length + 1][houses.length + 1];
-		// maxStolenValueRecursiveCache(houses, 0, houses.length, cache);
-		// for(int i=0; i<cache.length; i++)
-		// {
-		// for (int j=0; j<cache.length;j++)
-		// {
-		// System.out.print(cache[i][j]+" ");
-		// }
-		// System.out.println();
-		// }
-		// //return cache[0][houses.length];
-		// return maxStolenValueIterative(houses);
-
-		
 		return maxStolenValueIterative(houses);
-		// return maxStolenValueRecursiveCache(houses,0,cache);
+
 	}
 
 	/**
@@ -107,5 +108,4 @@ public class Robbery {
 		return cache[0];
 	}
 
-	
 }
