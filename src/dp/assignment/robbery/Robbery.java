@@ -96,13 +96,12 @@ public class Robbery {
 	 */
 	private static int maxStolenValueIterative(int[] houses) {
 		int[] cache = new int[houses.length];
+		int max = 0;
 		for (int start = houses.length - 1; start >= 0; start--) {
-			int max = 0;
-			for (int i = start; i < houses.length; i++) {
-				int right = (i + 2 < houses.length) ? houses[i] + cache[i + 2] : houses[i];
-				max = Math.max(right, max);
-			}
+			int right = (start + 2 < houses.length) ? houses[start] + cache[start + 2] : houses[start];
+			max = Math.max(right, max);
 			cache[start] = max;
+
 		}
 
 		return cache[0];
