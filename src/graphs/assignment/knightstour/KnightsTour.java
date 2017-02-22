@@ -51,7 +51,7 @@ public class KnightsTour {
 
 			for (int i = 0; i < xRange.length; i++) {
 				for (int j = 0; j < xRange.length; j++) {
-					if (xRange[i] == xRange[j])
+					if (Math.abs(xRange[i]) == Math.abs(xRange[j]))
 						continue;
 					if (x + xRange[i] < 0 || x + xRange[i] >= MAX || y + xRange[j] < 0 || y + xRange[j] >= MAX)
 						continue;
