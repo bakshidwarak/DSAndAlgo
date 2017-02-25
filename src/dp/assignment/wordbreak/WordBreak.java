@@ -72,7 +72,6 @@ public class WordBreak {
 			Collections.reverse(list);
 			String string = list.stream().collect(Collectors.joining(" "));
 			array[i++] = string;
-			//System.out.println(string);
 		}
 
 		Arrays.sort(array);

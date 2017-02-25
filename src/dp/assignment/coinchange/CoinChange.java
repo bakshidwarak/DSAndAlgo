@@ -1,12 +1,38 @@
 package dp.assignment.coinchange;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
+import java.util.Stack;
+import java.util.stream.Collectors;
 
-import com.sun.management.MissionControlMXBean;
-
+/**
+ * Making Change
+ * 
+ * You are given n types of coin denominations of values v(1) < v(2) < ... <
+ * v(n) (all integers). Give an algorithm which makes change for an amount of
+ * money C with as few coins as possible.
+ * 
+ * Assume there are multiple coins of every denomination. Assume v(1) = 1, (i.e.
+ * there is always a combination that leads to C). There may be multiple ways of
+ * reaching C. We want a DP based solution that leads to the method using least
+ * number of coins. Input: C and Denominations Array Output: Combination using
+ * minimum number of coins (repeat coins ok) that leads to C. Print any one.
+ * 
+ * For extra credit (read: agony): There may be multiple such combinations.
+ * Print all such combinations. Hint: You'll need to do recursion on the DP
+ * table.
+ * 
+ * e.g. Input: Denominations: 1,2,3 C: 4 Output on two lines: 1,3 2,2
+ * 
+ * Note that test-case output is for the extra-credit case. If you're not doing
+ * that (at first, you should ignore extra credit), then read the output
+ * appropriately.
+ * 
+ * @author dwaraknathbs
+ *
+ */
 public class CoinChange {
 
 	public static void main(String[] args) {
@@ -19,187 +45,112 @@ public class CoinChange {
 		System.out.println("Total currency value");
 		int currency = scanner.nextInt();
 
-		System.out.println(getMinCoinsCount(coins, currency));
-
-		System.out.println(" Using cache");
-
-		int[] cache = new int[currency + 1];
-		Arrays.fill(cache, -1);
-		System.out.println(getMinCoinsCache(coins, currency, cache));
-		Arrays.fill(cache, -1);
-		int[] waysCache = new int[currency + 1];
-
-		getMinCoinsCache(coins, currency, cache, waysCache);
-		System.out.println("Printing cache");
-		print(waysCache, currency);
-		Arrays.fill(cache, -1);
-		List<Integer>[] ways=new List[currency+1];
-		getMinCoinsCacheIterative(coins,currency,cache,ways);
-		ArrayList<Integer> result= new ArrayList<>();
-		print(ways,currency,result);
-		System.out.println("Printing cache");
-		result.forEach(System.out::print);
+		getMinCoins(coins, currency);
 		scanner.close();
 
 	}
 
-	private static void print(List<Integer>[] ways, int currency,ArrayList<Integer> result) {
-		if(currency==0) return;
-		List<Integer> currValue=ways[currency];
-		
-		for(Integer inValue:currValue){
-			result.add(inValue);
-			print(ways,currency-inValue,result);
-			result.remove((result.size()-1));
-		}
-		System.out.println();
-		
-	}
+	/**
+	 * Key idea is to build the cache. The min coins required to build currency
+	 * X is 1+ the min of the coins required to build X-coins[i]. As and when we
+	 * find a min we keep adding the coins chosen in a list
+	 * 
+	 * @param coins
+	 * @param currency
+	 * @return
+	 */
+	private static Integer getMinCoins(int[] coins, int currency) {
 
-	private static void print(int[] waysCache, int currency) {
-		if (currency == 0)
-			return;
-		System.out.println(waysCache[currency]);
-		print(waysCache, currency - waysCache[currency]);
+		int[] minWays = new int[currency + 1];
+		List<Integer>[] coinIndices = new List[currency + 1];
 
-	}
+		for (int current = 1; current <= currency; current++) {
 
-	private static Integer getMinCoinsCount(int[] coins, int currency) {
-		System.out.println("currency" + currency);
-
-		Integer minCurrency = null;
-
-		for (int i = 0; i < coins.length; i++) {
-			Integer current = null;
-			if (currency - coins[i] == 0)
-				return 1;
-			if (currency - coins[i] > 0) {
-				Integer subProblemAnswer = getMinCoinsCount(coins, currency - coins[i]);
-
-				if (subProblemAnswer != null) {
-					current = 1 + subProblemAnswer;
-				}
-
-				minCurrency = minCurrency != null ? Math.min(current, minCurrency) : current;
+			int minVal = Integer.MAX_VALUE - 1;
+			int coin = 0;
+			if (coinIndices[current] == null) {
+				coinIndices[current] = new ArrayList<>();
 			}
-		}
-		return minCurrency;
-
-	}
-
-	private static Integer getMinCoinsCache(int[] coins, int currency, int[] cache) {
-
-		if (cache[currency] == -1) {
-			System.out.println("currency" + currency);
-			Integer minCurrency = null;
-
 			for (int i = 0; i < coins.length; i++) {
-				Integer current = null;
-				if (currency - coins[i] == 0) {
-					cache[currency] = 1;
-				} else if (currency - coins[i] > 0) {
-					Integer subProblemAnswer = getMinCoinsCache(coins, currency - coins[i], cache);
-
-					if (subProblemAnswer != null) {
-						current = 1 + subProblemAnswer;
-					}
-
-					minCurrency = minCurrency != null ? Math.min(current, minCurrency) : current;
-					cache[currency] = minCurrency;
-				}
-			}
-		}
-		return cache[currency];
-
-	}
-
-	private static Integer getMinCoinsCache(int[] coins, int currency, int[] cache, int[] coinDenomination) {
-
-		if (cache[currency] == -1) {
-			System.out.println("currency" + currency);
-			Integer minCurrency = null;
-
-			for (int i = 0; i < coins.length; i++) {
-				Integer current = null;
-				if (currency - coins[i] == 0) {
-					cache[currency] = 1;
-					coinDenomination[currency] = coins[i];
-				} else if (currency - coins[i] > 0) {
-					Integer subProblemAnswer = getMinCoinsCache(coins, currency - coins[i], cache, coinDenomination);
-
-					if (subProblemAnswer != null) {
-						current = 1 + subProblemAnswer;
-					}
-					if (minCurrency == null) {
-						minCurrency = current;
-						coinDenomination[currency] = coins[i];
-					}
-
-					else if (current <= minCurrency) {
-						minCurrency = current;
-
-						coinDenomination[currency] = coins[i];
-						cache[currency] = minCurrency;
+				if (coins[i] == current) {
+					minVal = 1;
+					coinIndices[current].add(i);
+				} else {
+					if (current - coins[i] > 0) {
+						int currentMin = 1 + minWays[current - coins[i]];
+						if (currentMin <= minVal) {
+							minVal = currentMin;
+							coinIndices[current].add(i);
+						}
 					}
 
 				}
+
 			}
+			minWays[current] = minVal;
+
 		}
-		return cache[currency];
+
+		print(coinIndices, currency, minWays, coins);
+
+		return minWays[currency];
 
 	}
 
-	private static Integer getMinCoinsCacheIterative(int[] coins, int currency, int[] cache,
-			List<Integer>[] coinDenomination) {
+	/**
+	 * Recursive routine to print the currency denominations
+	 * 
+	 * @param coinIndices
+	 * @param currency
+	 * @param minWays
+	 * @param coins
+	 */
+	private static void print(List<Integer>[] coinIndices, int currency, int[] minWays, int[] coins) {
 
-		if (cache[currency] == -1) {
-			System.out.println("currency" + currency);
-			Integer minCurrency = null;
+		Stack<List<Integer>> currencyList = new Stack<>();
+		List<Integer> current = new ArrayList<>();
+		print(coinIndices, currency, currencyList, current, coins);
+		currencyList.forEach(e -> System.out.println(e.stream().map(String::valueOf).collect(Collectors.joining(","))));
 
-			for (int i = 0; i < coins.length; i++) {
-				Integer current = null;
-				if (currency - coins[i] == 0) {
-					current = 1;
-					addToCache(coins, currency, coinDenomination, i);
-					cache[currency] = 1;
-				} else if (currency - coins[i] > 0) {
-					Integer subProblemAnswer = getMinCoinsCacheIterative(coins, currency - coins[i], cache,
-							coinDenomination);
+	}
 
-					if (subProblemAnswer != null) {
-						current = 1 + subProblemAnswer;
-					}
-					if (minCurrency == null) {
-						minCurrency = current;
-						addToCache(coins, currency, coinDenomination, i);
-					}
-
-					else if (current <= minCurrency) {
-						minCurrency = current;
-
-						addToCache(coins, currency, coinDenomination, i);
-						cache[currency] = minCurrency;
-					}
-
+	private static void print(List<Integer>[] coinIndices, int currency, Stack<List<Integer>> currencyList,
+			List<Integer> current, int[] coins) {
+		if (currency <= 0) {
+			ArrayList<Integer> temp = new ArrayList<>(current);
+			/**
+			 * As I push the outcome in the stack I check for the length of the
+			 * stack top. If it is greater than the temps length I keep popping
+			 * out till the length is = and then push the current combination in
+			 * the stack.
+			 */
+			if (!currencyList.isEmpty()) {
+				List tempList = currencyList.peek();
+				while (tempList.size() > temp.size() && !currencyList.isEmpty()) {
+					currencyList.pop();
+					if (!currencyList.isEmpty())
+						tempList = currencyList.peek();
 				}
-				
+			}
+			Collections.sort(temp);
+			if (currencyList.contains(temp))
+				return;
+			currencyList.push(temp);
+
+		} else {
+			List<Integer> list = coinIndices[currency];
+			for (int index : list) {
+				/**
+				 * Simple back tracking. I add my current choice before
+				 * delegating to a version of myself. Once the work is done I
+				 * remove the element I added
+				 */
+				current.add(coins[index]);
+				print(coinIndices, currency - coins[index], currencyList, current, coins);
+				current.remove(current.size() - 1);
 			}
 		}
-		return cache[currency];
 
-	}
-
-	private static void addToCache(int[] coins, int currency, List<Integer>[] coinDenomination, int i) {
-		if (coinDenomination[currency] == null) {
-			ArrayList<Integer> arrayList = new ArrayList<Integer>();
-			arrayList.add(coins[i]);
-			coinDenomination[currency] = arrayList;
-
-		}
-		else
-		{
-			coinDenomination[currency].add(coins[i]);
-		}
 	}
 
 }
