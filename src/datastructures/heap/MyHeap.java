@@ -103,7 +103,7 @@ public class MyHeap<T> {
 		if(heapProperty.compare(leftValue, rightValue)!=heapType.multiplier){
 			childToSwap=getRight(0);
 		}
-		while(childToSwap<=size && heapProperty.compare(heap[parent],heap[childToSwap])!=heapType.multiplier){
+		while(childToSwap<size && heapProperty.compare(heap[parent],heap[childToSwap])!=heapType.multiplier){
 			swap(parent,childToSwap);
 			parent=childToSwap;
 			childToSwap=getLeft(parent);

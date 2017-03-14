@@ -148,7 +148,7 @@ public class MergeKSortedLists {
 			if (right > 0 && right < size - 1 && heapProperty.compare(leftValue, heap[right]) != heapType.multiplier) {
 				childToSwap = right;
 			}
-			while (childToSwap <= size
+			while (childToSwap < size
 					&& heapProperty.compare(heap[parent], heap[childToSwap]) != heapType.multiplier) {
 				swap(parent, childToSwap);
 				parent = childToSwap;
