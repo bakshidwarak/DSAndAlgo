@@ -38,12 +38,11 @@ public class WildCard {
 		System.out.println("Test Case 1 : 1?1");
 		HashSet<String> wildCard = getWildCards("10?");
 		wildCard.forEach(System.out::println);
-		
-		
+
 		System.out.println("Test Case 2 : 1?0?");
 		HashSet<String> wildCard1 = getWildCards("1?0?");
 		wildCard1.forEach(System.out::println);
-		
+
 		System.out.println("Test Case 3 : 1????");
 		HashSet<String> wildCard2 = getWildCards("1????");
 		wildCard2.forEach(System.out::println);
@@ -51,16 +50,44 @@ public class WildCard {
 
 	private static HashSet<String> getWildCards(String string) {
 		char[] input = string.toCharArray();
+		/**
+		 * Using Hashset as using a list will lead to repetitions
+		 */
 		HashSet<String> wildCards = new HashSet();
 		wildCardHelper(input, 0, wildCards);
 		return wildCards;
 	}
 
+	/**
+	 * Contract:
+	 * 
+	 * From start to end of the word, repace the wildcard with 1 or 0 and call a
+	 * version of myself with the next index. Replace the state to what it was
+	 * when I am done
+	 * 
+	 * Base Case:
+	 * 
+	 * When the index is equal to length , all the indices are processed , hence
+	 * store a copy of the current word formed
+	 * 
+	 * @param input
+	 * @param start
+	 * @param wildCards
+	 */
 	private static void wildCardHelper(char[] input, int start, HashSet<String> wildCards) {
 		// System.out.println(String.valueOf(input)+" "+start);
 		if (start == input.length) {
 			char[] output = Arrays.copyOf(input, input.length);
 			String str = new String(output);
+			/**
+			 * Sometimes when we have wildcard initially and no wildcards there
+			 * after, the words might contain the actual wild card. Filtering
+			 * those before adding
+			 */
+			/**
+			 * Also eliminating duplicates by checking the hashset before
+			 * inserting
+			 */
 			if (!wildCards.contains(str) && !str.contains("?"))
 				wildCards.add(str);
 			return;
