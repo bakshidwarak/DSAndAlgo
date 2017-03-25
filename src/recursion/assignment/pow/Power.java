@@ -1,6 +1,7 @@
 package recursion.assignment.pow;
 
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -31,22 +32,58 @@ public class Power {
 	 */
 
 	static float pow(float dblbase, int ipower) {
-
 		if (ipower < 0) {
-
-			return powerHelper(1 / dblbase, ipower * -1);
+			dblbase = 1 / dblbase;
+			ipower = ipower * -1;
 		}
 
-		return powerHelper(dblbase, ipower);
+		float[] powerTable = new float[ipower + 1];
+		Arrays.fill(powerTable, 0);
+
+		return powerHelperFast(dblbase, ipower, powerTable);
 
 	}
 
+	/**
+	 * Straightforward implementation by recursively multiplying with lower
+	 * powers
+	 * 
+	 * @param num
+	 * @param pow
+	 * @return
+	 */
 	static float powerHelper(float num, int pow) {
 		System.out.println(num + "," + pow);
 		if (pow == 0) {
 			return 1;
 		}
 		return num * powerHelper(num, pow - 1);
+	}
+
+	/**
+	 * Optimize by making two recursive calls a^n = a^n/2 * a^n/2
+	 * 
+	 * In this way we could memoize and do it faster
+	 * @param num
+	 * @param pow
+	 * @param powerTable
+	 * @return
+	 */
+	static float powerHelperFast(float num, int pow, float[] powerTable) {
+		if (powerTable[pow] == 0) {
+			System.out.println(num + "," + pow);
+			if (pow == 0) {
+				powerTable[pow] = 1;
+
+			} else if (pow == 1) {
+				powerTable[pow] = num;
+			} else {
+				powerTable[pow] = powerHelperFast(num, pow / 2, powerTable)
+						* powerHelperFast(num, pow - pow / 2, powerTable);
+			}
+		}
+		return powerTable[pow];
+
 	}
 
 	public static void main(String[] args) throws IOException {
