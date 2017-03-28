@@ -1,4 +1,5 @@
 package leetcode.houserobbery;
+
 /**
  * 198. House Robber You are a professional robber planning to rob houses along
  * a street. Each house has a certain amount of money stashed, the only
@@ -10,18 +11,18 @@ package leetcode.houserobbery;
  * the police.
  */
 public class HouseRobbery {
-    public int rob(int[] nums) {
-        int cache[] = new int[nums.length + 2];
-        cache[nums.length] = 0;
-        cache[nums.length + 1] = 0;
+	public int rob(int[] nums) {
+		int cache[] = new int[nums.length + 2];
+		cache[nums.length] = 0;
+		cache[nums.length + 1] = 0;
 
-        for (int i = nums.length - 1; i >= 0; i--) {
-            int gain_with_current = nums[i] + cache[i + 2];
-            int gain_without_current = cache[i + 1];
-            cache[i] = Math.max(gain_with_current, gain_without_current);
+		for (int i = nums.length - 1; i >= 0; i--) {
+			int gain_with_current = nums[i] + cache[i + 2];
+			int gain_without_current = cache[i + 1];
+			cache[i] = Math.max(gain_with_current, gain_without_current);
 
-        }
-        return cache[0];
-    }
+		}
+		return cache[0];
+	}
 
 }
