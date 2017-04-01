@@ -21,7 +21,7 @@ import java.util.Scanner;
  * @author dwaraknathbs
  *
  */
-public class SlindingWindowMaximum {
+public class SlidingWindowMaximum {
 
 	public static void main(String[] args) {
 
