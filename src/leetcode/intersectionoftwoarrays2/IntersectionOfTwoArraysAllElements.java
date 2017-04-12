@@ -31,6 +31,40 @@ public class IntersectionOfTwoArraysAllElements {
 		// TODO Auto-generated method stub
 
 	}
+	
+	/**
+	 * One approach is to use two hashsets.
+	 * O(n) Space O(n)
+	 * @param nums1
+	 * @param nums2
+	 * @return
+	 */
+	public int[] intersection(int[] nums1, int[] nums2) {
+		List<Integer> intersection = new ArrayList<Integer>();
+		HashSet<Integer> numbersInBigArray = new HashSet<Integer>();
+		int[] toHash = nums1;
+		int[] toCompare = nums2;
+		if (nums2.length > nums1.length) {
+			toHash = nums2;
+			toCompare = nums1;
+		}
+		for (int i = 0; i < toHash.length; i++) {
+			numbersInBigArray.add(toHash[i]);
+		}
+
+		for (int j = 0; j < toCompare.length; j++) {
+			if (numbersInBigArray.contains(toCompare[j])) {
+				intersection.add(toCompare[j]);
+			}
+		}
+
+		int[] result = new int[intersection.size()];
+		int i = 0;
+		for (int n : intersection) {
+			result[i++] = n;
+		}
+		return result;
+	}
 
 	/**
 	 * Sort both the arrays and manipulate pointers ( like in two sum)
