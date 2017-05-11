@@ -39,16 +39,50 @@ import java.util.List;
 public class JoinWordsToMakePalindrome {
 
 	public static void main(String[] args) {
-		String[] wordsWithNoPalindrome = { "ant", "cat", "dog" };
+		String[] wordsWithNoPalindrome = { "ant", "cat", "dog", "malaya", "lam" };
 
 		String[] wordWithPalindrome = { "bat", "tab", "cat", "mad", "am" };
 
 		// List<List<String>> palindromePairs =
 		// getPalindromePairsSlow(wordWithPalindrome);
-		List<List<String>> palindromePairs = getPalindromePairsFast(wordWithPalindrome);
+		List<List<String>> palindromePairs = getPalindromePairsFastTrie(wordsWithNoPalindrome);
 
 		palindromePairs.forEach(list -> list.forEach(System.out::println));
 
+	}
+
+	static class ReverseTrie {
+		ReverseTrie[] nodes = new ReverseTrie[26];// Assuming lower case English
+													// letters
+		int wordIndex = -1;
+
+		void addNode(String word, int index, int wordIndex) {
+			/**
+			 * The word has ended processing and we need to mark the current
+			 * Node with the word index
+			 */
+			if (index < 0) {
+				this.wordIndex = wordIndex;
+				return;
+
+			}
+
+			ReverseTrie n = nodes[getCharIndex(word.charAt(index))];
+			if (n == null) {
+				n = new ReverseTrie();
+				nodes[getCharIndex(word.charAt(index))] = n;
+			}
+
+			n.addNode(word, index - 1, wordIndex);
+		}
+
+		private int getCharIndex(char currentChar) {
+			return currentChar - 'a';
+		}
+
+		public ReverseTrie getNode(char charAt) {
+			return nodes[getCharIndex(charAt)];
+		}
 	}
 
 	/**
@@ -122,6 +156,57 @@ public class JoinWordsToMakePalindrome {
 						break;
 					}
 				}
+			}
+
+		}
+		return result;
+	}
+
+	/**
+	 * O(nk^2) solution. Add reverse of each of the words in a Trie. As we
+	 * process each word check if the character is in the trie, if so check if
+	 * rest of the string is a palindrome
+	 * 
+	 * @param words
+	 * @return
+	 */
+	private static List<List<String>> getPalindromePairsFastTrie(String[] words) {
+		List<List<String>> result = new ArrayList<>();
+
+		ReverseTrie reversewords = new ReverseTrie();
+
+		/**
+		 * Add reverse words in a Trie
+		 */
+		for (int i = 0; i < words.length; i++) {
+			reversewords.addNode(words[i], words[i].length() - 1, i);
+		}
+
+		for (int i = 0; i < words.length; i++) {
+
+			ReverseTrie temp = reversewords;
+			String word = words[i];
+			for (int j = 0; j < word.length(); j++) {
+				ReverseTrie current = temp.getNode(word.charAt(j));
+				/**
+				 * The current letter does not exist in the Trie, so exit early
+				 * and process next letter
+				 */
+				if (current == null) {
+					break;
+				}
+				/**
+				 * If the current trie's wordIndex is !=-1, it means the current
+				 * letter forms the end of a word. We need to check if the index
+				 * is not the same as the current word index that is being
+				 * processed. Also we check if the rest of the string is a
+				 * palindrome. If all these suffice add the pair to the result
+				 */
+				if (current.wordIndex != -1 && current.wordIndex != i && j != word.length()
+						&& isPalindrome(word.substring(j + 1))) {
+					result.add(getPair(word, words[current.wordIndex]));
+				}
+				temp = current;
 			}
 
 		}
