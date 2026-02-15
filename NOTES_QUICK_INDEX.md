@@ -4,26 +4,26 @@
 
 | # | Problem | LeetCode | File Path | Key Algorithm |
 |---|---------|----------|-----------|---|
-| 1 | Sort Colors | 75 | `sortcolors/notes.md` | Three-Pointer/Dutch Flag |
-| 2 | Convert Sorted Array to BST | 108 | `sortedarraytobst/notes.md` | Divide & Conquer |
-| 3 | Sort Transformed Array | 360 | `sorttransformedarray/notes.md` | Two Pointers + Parabola |
-| 4 | Strobogrammatic Number | 246 | `sstrobogrammaticnumber/notes.md` | Two Pointers |
-| 5 | Strobogrammatic Number II | 247 | `sstrobogrammaticnumberII/notes.md` | Recursion |
-| 6 | Subsets | 78 | `subsets/notes.md` | Backtracking |
-| 7 | Subsets II | 90 | `subsetsII/notes.md` | Backtracking + Duplicate Skip |
-| 8 | Sum of Left Leaves | 404 | `sumofleafnodes/notes.md` | DFS + Tree |
-| 9 | Add Two Numbers | 2 | `sumofnumbers/notes.md` | Linked List + Carry |
-| 10 | Sum of Square Numbers | 633 | `sumofsquarenumbers/notes.md` | Two Pointers |
-| 11 | Sum Root to Leaf Numbers | 129 | `sumroottoleafnumbers/notes.md` | DFS + Path Tracking |
-| 12 | Swap Nodes in Pairs | 24 | `swapnodesinpairs/notes.md` | Recursion + Linked List |
-| 13 | Symmetric Tree | 101 | `symmetrictree/notes.md` | DFS + Mirror Check |
-| 14 | 3Sum | 15 | `threesum/notes.md` | Two Pointers + Sorting |
-| 15 | Top K Frequent Words | 692 | `topkfrequentwords/notes.md` | Min Heap + HashMap |
-| 16 | Total Hamming Distance | 477 | `totalhammingdistance/notes.md` | Bit Manipulation |
-| 17 | Transpose of a Matrix | 867 | `transposeofamatrix/notes.md` | Array Manipulation |
-| 18 | Tree Diameter | 543 | `treediameter/notes.md` | DFS + Tree |
-| 19 | Trim a Binary Search Tree | 669 | `trimbst/notes.md` | BST + Recursion |
-| 20 | Two Sum III - Data Structure | 170 | `twosum/notes.md` | HashMap + Design |
+| 1 | Sort Colors | 75 | [sortcolors/notes.md](src/leetcode/sortcolors/notes.md) | Three-Pointer/Dutch Flag |
+| 2 | Convert Sorted Array to BST | 108 | [sortedarraytobst/notes.md](src/leetcode/sortedarraytobst/notes.md) | Divide & Conquer |
+| 3 | Sort Transformed Array | 360 | [sorttransformedarray/notes.md](src/leetcode/sorttransformedarray/notes.md) | Two Pointers + Parabola |
+| 4 | Strobogrammatic Number | 246 | [sstrobogrammaticnumber/notes.md](src/leetcode/sstrobogrammaticnumber/notes.md) | Two Pointers |
+| 5 | Strobogrammatic Number II | 247 | [sstrobogrammaticnumberII/notes.md](src/leetcode/sstrobogrammaticnumberII/notes.md) | Recursion |
+| 6 | Subsets | 78 | [subsets/notes.md](src/leetcode/subsets/notes.md) | Backtracking |
+| 7 | Subsets II | 90 | [subsetsII/notes.md](src/leetcode/subsetsII/notes.md) | Backtracking + Duplicate Skip |
+| 8 | Sum of Left Leaves | 404 | [sumofleafnodes/notes.md](src/leetcode/sumofleafnodes/notes.md) | DFS + Tree |
+| 9 | Add Two Numbers | 2 | [sumofnumbers/notes.md](src/leetcode/sumofnumbers/notes.md) | Linked List + Carry |
+| 10 | Sum of Square Numbers | 633 | [sumofsquarenumbers/notes.md](src/leetcode/sumofsquarenumbers/notes.md) | Two Pointers |
+| 11 | Sum Root to Leaf Numbers | 129 | [sumroottoleafnumbers/notes.md](src/leetcode/sumroottoleafnumbers/notes.md) | DFS + Path Tracking |
+| 12 | Swap Nodes in Pairs | 24 | [swapnodesinpairs/notes.md](src/leetcode/swapnodesinpairs/notes.md) | Recursion + Linked List |
+| 13 | Symmetric Tree | 101 | [symmetrictree/notes.md](src/leetcode/symmetrictree/notes.md) | DFS + Mirror Check |
+| 14 | 3Sum | 15 | [threesum/notes.md](src/leetcode/threesum/notes.md) | Two Pointers + Sorting |
+| 15 | Top K Frequent Words | 692 | [topkfrequentwords/notes.md](src/leetcode/topkfrequentwords/notes.md) | Min Heap + HashMap |
+| 16 | Total Hamming Distance | 477 | [totalhammingdistance/notes.md](src/leetcode/totalhammingdistance/notes.md) | Bit Manipulation |
+| 17 | Transpose of a Matrix | 867 | [transposeofamatrix/notes.md](src/leetcode/transposeofamatrix/notes.md) | Array Manipulation |
+| 18 | Tree Diameter | 543 | [treediameter/notes.md](src/leetcode/treediameter/notes.md) | DFS + Tree |
+| 19 | Trim a Binary Search Tree | 669 | [trimbst/notes.md](src/leetcode/trimbst/notes.md) | BST + Recursion |
+| 20 | Two Sum III - Data Structure | 170 | [twosum/notes.md](src/leetcode/twosum/notes.md) | HashMap + Design |
 
 ## By Algorithm Type
 

@@ -238,7 +238,7 @@ hasNext():
 ## Related Problems
 
 1. **LeetCode 251** - Flatten 2D Vector (Iterator with preprocessing)
-2. **LeetCode 341** - Nested List Iterator (Nested structure iteration)
+2. [Nested List Iterator](../nestedlistiterator/notes.md)
 3. **LeetCode 173** - Binary Search Tree Iterator (Custom iterator)
 4. **LeetCode 281** - Zigzag Iterator (Multiple iterator handling)
 5. **LeetCode 1586** - Binary Search Tree Iterator II (Previous/next)

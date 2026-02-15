@@ -148,7 +148,6 @@ public boolean isPowerOfFour(int num) {
 2. **LeetCode 326**: Power of Three - Check if power of 3
 3. **LeetCode 50**: Pow(x, n) - Calculate power
 4. **LeetCode 367**: Valid Perfect Square - Similar bit manipulation
-
 ## Tags
 
 - Bit Manipulation

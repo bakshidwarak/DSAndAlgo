@@ -212,12 +212,11 @@ public boolean isSymmetric(TreeNode root) {
 7. Deep skewed tree
 
 ## Related Problems
-- LeetCode 100: Same Tree
+- [Same Tree](../sametree/notes.md)
 - LeetCode 572: Subtree of Another Tree
 - LeetCode 226: Invert Binary Tree
 - LeetCode 250: Count Univalue Subtrees
 - LeetCode 1740: Find Distance in a Binary Tree
-
 ## Tags
 - Tree
 - Recursion

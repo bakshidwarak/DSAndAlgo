@@ -191,7 +191,7 @@ Loop iteration 5:
 
 ## Related Problems
 
-1. **LeetCode 24** - Swap Nodes in Pairs
+1. [Swap Nodes in Pairs](../swapnodesinpairs/notes.md)
 2. **LeetCode 50** - Pow(x, n)
 3. **LeetCode 89** - Gray Code
 4. **LeetCode 515** - Find Largest Value in Each Tree Row

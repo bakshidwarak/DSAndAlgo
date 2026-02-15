@@ -165,10 +165,9 @@ public ListNode swapPairs(ListNode head) {
 
 ## Related Problems
 - LeetCode 25: Reverse Nodes in k-Group
-- LeetCode 206: Reverse Linked List
-- LeetCode 92: Reverse Linked List II
+- [Reverse Linked List](../reverselinkedlist/notes.md)
+- [Reverse Linked List II](../reverselinkedlist/notes.md)
 - LeetCode 141: Linked List Cycle
-
 ## Tags
 - Linked List
 - Recursion

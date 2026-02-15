@@ -161,7 +161,7 @@ public int maxProfit(int[] prices) {
 - **Valley then peak**: [7,1,5] → 4 (buy at valley)
 
 ## Related Problems
-- **122. Best Time to Buy and Sell Stock II**: Multiple transactions allowed
+- [**122. Best Time to Buy and Sell Stock II**](../besttimetobuyandsellstockII/notes.md): Multiple transactions allowed
 - **123. Best Time to Buy and Sell Stock III**: At most two transactions
 - **188. Best Time to Buy and Sell Stock IV**: At most k transactions
 - **309. Best Time to Buy and Sell Stock with Cooldown**: With cooldown period

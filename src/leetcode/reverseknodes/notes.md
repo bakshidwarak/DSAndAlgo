@@ -271,7 +271,6 @@ public ListNode reverseKGroupIterative(ListNode head, int k) {
 3. **LeetCode 141**: Linked List Cycle - Detect cycles
 4. **LeetCode 143**: Reorder List - Reorder with reversal
 5. **LeetCode 24**: Swap Nodes in Pairs - k=2 special case
-
 ## Tags
 
 - Linked List

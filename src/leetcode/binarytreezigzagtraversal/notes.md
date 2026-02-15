@@ -207,8 +207,8 @@ public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
 - **Many levels**: Alternates correctly between directions
 
 ## Related Problems
-- **102. Binary Tree Level Order Traversal**: Regular level order (no zigzag)
-- **107. Binary Tree Level Order Traversal II**: Bottom-up level order
+- [**102. Binary Tree Level Order Traversal**](../binarytreelevelordertraversal/notes.md): Regular level order (no zigzag)
+- [**107. Binary Tree Level Order Traversal II**](../binarytreelevelordertraversal/notes.md): Bottom-up level order
 - **637. Average of Levels in Binary Tree**: Similar BFS approach
 - **199. Binary Tree Right Side View**: Related level-based traversal
 

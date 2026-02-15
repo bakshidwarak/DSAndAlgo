@@ -234,7 +234,6 @@ This allows efficient finding of minimum distance without nested loops.
 - 245: Shortest Word Distance III (word1 and word2 can be same)
 - 346: Moving Average from Data Stream
 - 232: Implement Queue using Stacks
-
 ## Tags
 
 `medium` `hash-map` `design` `two-pointer` `optimization` `preprocessing`

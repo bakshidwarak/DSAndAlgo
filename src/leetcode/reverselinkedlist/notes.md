@@ -264,7 +264,6 @@ public ListNode reverseListTwoPointer(ListNode head) {
 3. **LeetCode 234**: Palindrome Linked List - Uses reversal
 4. **LeetCode 143**: Reorder List - Uses reversal
 5. **LeetCode 24**: Swap Nodes in Pairs - Similar pointer manipulation
-
 ## Tags
 
 - Linked List

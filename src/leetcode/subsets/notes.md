@@ -142,11 +142,10 @@ public List<List<Integer>> subsets(int[] nums) {
 
 ## Related Problems
 - LeetCode 77: Combinations
-- LeetCode 90: Subsets II (With duplicates)
+- [Subsets II (With duplicates)](../subsetsII/notes.md)
 - LeetCode 39: Combination Sum
 - LeetCode 40: Combination Sum II
 - LeetCode 17: Letter Combinations of a Phone Number
-
 ## Tags
 - Array
 - Backtracking

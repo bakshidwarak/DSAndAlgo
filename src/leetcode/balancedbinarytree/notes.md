@@ -174,7 +174,7 @@ public int checkBalance(TreeNode root) {
 - **Almost balanced**: Difference exactly 1 → true
 
 ## Related Problems
-- **104. Maximum Depth of Binary Tree**: Uses same depth calculation
+- [**104. Maximum Depth of Binary Tree**](../depthofabinarytree/notes.md): Uses same depth calculation
 - **111. Minimum Depth of Binary Tree**: Similar recursive structure
 - **543. Diameter of Binary Tree**: Also computes depths at each node
 - **124. Binary Tree Maximum Path Sum**: Similar bottom-up approach

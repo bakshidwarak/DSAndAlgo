@@ -207,11 +207,10 @@ Example: [1, 0, 1, 0] at position 0
 - Pairs: (1,0), (1,0), (0,1), (0,1) = 4 pairs
 
 ## Related Problems
-- LeetCode 461: Hamming Distance
+- [Hamming Distance](../totalhammingdistance/notes.md)
 - LeetCode 191: Number of 1 Bits
 - LeetCode 338: Counting Bits
 - LeetCode 393: UTF-8 Validation
-
 ## Tags
 - Bit Manipulation
 - Math

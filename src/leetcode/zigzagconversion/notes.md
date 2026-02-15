@@ -314,7 +314,6 @@ Input: s = "ABC", numRows = 4, Output: "ABC"
 3. **LeetCode 12 - Integer to Roman:** Character patterns
 4. **LeetCode 273 - Integer to English Words:** Complex string formatting
 5. **LeetCode 336 - Palindrome Pairs:** String analysis
-
 ## Tags
 
 `#String` `#Simulation` `#Easy`

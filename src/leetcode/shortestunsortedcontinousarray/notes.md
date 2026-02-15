@@ -205,7 +205,6 @@ Length = 5 - 1 + 1 = 5
 - 88: Merge Sorted Array
 - 215: Kth Largest Element in an Array
 - 280: Wiggle Sort
-
 ## Tags
 
 `medium` `array` `sorting` `two-pointer` `optimization`

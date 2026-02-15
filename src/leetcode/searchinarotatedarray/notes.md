@@ -161,7 +161,6 @@ Key insight: One half will always be sorted in a rotated array
 - 153: Find Minimum in Rotated Sorted Array
 - 154: Find Minimum in Rotated Sorted Array II
 - 34: Find First and Last Position of Element in Sorted Array
-
 ## Tags
 
 `medium` `binary-search` `array` `rotation` `divide-and-conquer`

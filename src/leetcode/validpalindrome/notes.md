@@ -227,7 +227,6 @@ Input: "race a car", Output: false
 3. **LeetCode 167 - Two Sum II:** Similar two-pointer technique
 4. **LeetCode 680 - Valid Palindrome II:** Allow one character deletion
 5. **LeetCode 234 - Palindrome Linked List:** Palindrome in linked list
-
 ## Tags
 
 `#String` `#Two-Pointers` `#Easy`

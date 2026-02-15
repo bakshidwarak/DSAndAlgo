@@ -196,7 +196,7 @@ Call: getRow(3)
 1. **LeetCode 118** - Pascal's Triangle (Generate all rows up to n)
 2. **LeetCode 120** - Triangle (Use Pascal's triangle pattern for path sum)
 3. **LeetCode 62** - Unique Paths (Related combinatorics)
-4. **LeetCode 63** - Unique Paths II (Obstacle variants)
+4. [Unique Paths II](../uniquepathsII/notes.md)
 5. **LeetCode 64** - Minimum Path Sum (DP similar to triangle)
 
 ## Tags

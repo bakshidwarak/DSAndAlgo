@@ -225,7 +225,6 @@ The special property of this tree (parent < children) simplifies the problem:
 - 101: Symmetric Tree
 - 530: Minimum Absolute Difference in BST
 - 235: Lowest Common Ancestor of a Binary Search Tree
-
 ## Tags
 
 `easy` `tree` `binary-tree` `recursion` `depth-first-search`

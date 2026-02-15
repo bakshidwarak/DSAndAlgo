@@ -181,7 +181,6 @@ public boolean isSameTree(TreeNode p, TreeNode q) {
 - 572: Subtree of Another Tree (check if one tree is subtree of another)
 - 1367: Linked List in Binary Tree
 - 99: Recover Binary Search Tree
-
 ## Tags
 
 `easy` `tree` `recursion` `depth-first-search` `breadth-first-search`

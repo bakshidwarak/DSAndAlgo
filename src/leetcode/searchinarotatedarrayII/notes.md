@@ -162,7 +162,6 @@ Example worst case:
 - 33: Search in Rotated Sorted Array (no duplicates)
 - 153: Find Minimum in Rotated Sorted Array
 - 154: Find Minimum in Rotated Sorted Array II (with duplicates)
-
 ## Tags
 
 `medium` `binary-search` `array` `duplicates` `rotation`

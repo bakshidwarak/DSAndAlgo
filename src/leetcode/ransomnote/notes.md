@@ -194,7 +194,6 @@ public boolean canConstructStream(String ransomNote, String magazine) {
 3. **LeetCode 438**: Find All Anagrams in a String - Frequency window
 4. **LeetCode 205**: Isomorphic Strings - Character mapping
 5. **LeetCode 290**: Word Pattern - Character pattern matching
-
 ## Tags
 
 - Hash Map

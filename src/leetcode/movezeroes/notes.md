@@ -132,9 +132,9 @@ private void swap(int[] nums, int i, int j) {
 
 1. **LeetCode 26** - Remove Duplicates from Sorted Array (Similar two-pointer technique)
 2. **LeetCode 27** - Remove Element (Move specific element to end)
-3. **LeetCode 75** - Sort Colors (Three-way partition)
+3. [Sort Colors](../sortcolors/notes.md)
 4. **LeetCode 82** - Remove Duplicates from Sorted List II (Two-pointer on linked list)
-5. **LeetCode 238** - Product of Array Except Self (Array manipulation)
+5. [Product of Array Except Self](../productofarrayexceptself/notes.md)
 
 ## Tags
 

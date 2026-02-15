@@ -225,7 +225,6 @@ int[] shuffled2 = solution.shuffle();  // e.g., [3,1,2]
 - 1837: Sum of Digits in Base K
 - 2007: Find Original Array From Doubled Array
 - Randomized algorithms in general
-
 ## Tags
 
 `medium` `array` `randomization` `random` `shuffle` `design` `fisher-yates`

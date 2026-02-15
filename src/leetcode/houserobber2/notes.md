@@ -174,7 +174,7 @@ Choose maximum of both options
 7. **Large first/last house**: One scenario will dominate
 
 ## Related Problems
-- **House Robber (LeetCode 198)**: Linear version without circular constraint
+- [**House Robber (LeetCode 198)**](../houserobbery/notes.md): Linear version without circular constraint
 - **House Robber III**: Houses arranged as binary tree
 - **Delete and Earn**: Similar DP pattern
 - **Paint House**: Another constraint-based DP problem

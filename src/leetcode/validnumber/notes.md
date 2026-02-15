@@ -239,7 +239,6 @@ public static boolean isNumber(String s) {
 3. **LeetCode 157 - Read N Characters Given Read4:** String processing
 4. **LeetCode 468 - Validate IP Address:** IP format validation
 5. **LeetCode 567 - Permutation in String:** String pattern matching
-
 ## Tags
 
 `#String` `#State-Machine` `#Validation` `#Hard`

@@ -181,11 +181,11 @@ static class CountSum {
 - **Level with one node**: Average equals that node's value
 
 ## Related Problems
-- **102. Binary Tree Level Order Traversal**: Returns nodes grouped by level
-- **107. Binary Tree Level Order Traversal II**: Bottom-up level order
+- [**102. Binary Tree Level Order Traversal**](../binarytreelevelordertraversal/notes.md): Returns nodes grouped by level
+- [**107. Binary Tree Level Order Traversal II**](../binarytreelevelordertraversal/notes.md): Bottom-up level order
 - **199. Binary Tree Right Side View**: Similar BFS approach
 - **515. Find Largest Value in Each Tree Row**: Similar level-wise aggregation
-- **104. Maximum Depth of Binary Tree**: Level-related tree problem
+- [**104. Maximum Depth of Binary Tree**](../depthofabinarytree/notes.md): Level-related tree problem
 
 ## Tags
 `tree` `bfs` `binary-tree` `queue` `easy`

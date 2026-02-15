@@ -195,10 +195,9 @@ public class TwoSum {
 
 ## Related Problems
 - LeetCode 1: Two Sum
-- LeetCode 167: Two Sum II - Input Array Is Sorted
-- LeetCode 653: Two Sum IV - Input is a BST
+- [Two Sum II](../twosum2/notes.md) - Input Array Is Sorted
+- [Two Sum IV](../twosumbinarysearchtree/notes.md) - Input is a BST
 - LeetCode 1099: Two Sum Less Than K
-
 ## Tags
 - Hash Table
 - Design

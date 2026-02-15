@@ -211,7 +211,6 @@ public String simplifyPathStack(String path) {
 - 1106: Parsing A Boolean Expression
 - 1249: Minimum Remove to Make Valid Parentheses
 - 1541: Minimum Insertions to Balance a Parentheses String
-
 ## Tags
 
 `medium` `string` `stack` `deque` `parsing` `path-manipulation`

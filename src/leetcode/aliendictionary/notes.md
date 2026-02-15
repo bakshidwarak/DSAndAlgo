@@ -187,8 +187,8 @@ public void traverse(Vertex v, HashSet<Character> visited,
 - **Identical adjacent words**: No new information, handled correctly
 
 ## Related Problems
-- **207. Course Schedule**: Similar topological sort with cycle detection
-- **210. Course Schedule II**: Returns the topological ordering
+- [**207. Course Schedule**](../courseschedule/notes.md): Similar topological sort with cycle detection
+- [**210. Course Schedule II**](../courseschedule/notes.md): Returns the topological ordering
 - **444. Sequence Reconstruction**: Verify if sequence is unique topological sort
 - **All topological sort problems**: Uses same DFS/BFS approach
 

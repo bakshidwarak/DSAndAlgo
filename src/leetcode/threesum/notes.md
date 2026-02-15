@@ -150,11 +150,10 @@ public List<Integer> getList(int num1, int num2, int num3) {
 6. Mixed with duplicates: [-1, -1, 2, 0, 1] → [[-1, -1, 2], [-1, 0, 1]]
 
 ## Related Problems
-- LeetCode 16: 3Sum Closest
+- [3Sum Closest](../threesum/notes.md)
 - LeetCode 18: 4Sum
-- LeetCode 167: Two Sum II
+- [Two Sum II](../twosum2/notes.md)
 - LeetCode 1: Two Sum
-
 ## Tags
 - Array
 - Two Pointers

@@ -213,7 +213,6 @@ Input: "aab", Output: true (delete 'a' at position 0)
 3. **LeetCode 516 - Longest Palindromic Subsequence:** DP with palindromes
 4. **LeetCode 9 - Palindrome Number:** Number palindrome check
 5. **LeetCode 234 - Palindrome Linked List:** Palindrome in linked list
-
 ## Alternative Approach: Dynamic Programming
 
 ```java

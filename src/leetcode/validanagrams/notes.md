@@ -212,7 +212,6 @@ public boolean isAnagram(String s, String t) {
 3. **LeetCode 383 - Ransom Note:** Check if characters available for substring
 4. **LeetCode 409 - Longest Palindrome:** Count character frequencies
 5. **LeetCode 451 - Sort Characters by Frequency:** Count and sort by frequency
-
 ## Tags
 
 `#String` `#Hash-Table` `#Sorting` `#Counting` `#Easy`

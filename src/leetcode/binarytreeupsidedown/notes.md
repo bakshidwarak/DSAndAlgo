@@ -157,7 +157,7 @@ public TreeNode upsideDownBinaryTree(TreeNode root) {
 ## Related Problems
 - **206. Reverse Linked List**: Similar pointer manipulation
 - **226. Invert Binary Tree**: Different tree transformation
-- **114. Flatten Binary Tree to Linked List**: Tree restructuring
+- [**114. Flatten Binary Tree to Linked List**](../flattenbinarytreetolinkedlist/notes.md): Tree restructuring
 
 ## Tags
 `tree` `recursion` `medium`

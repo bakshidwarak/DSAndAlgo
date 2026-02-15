@@ -135,11 +135,10 @@ private List<String> helper(int n, int length) {
 5. n = 4: All 2-digit strobogrammatic numbers wrapped with valid pairs
 
 ## Related Problems
-- LeetCode 246: Strobogrammatic Number (Check if a number is strobogrammatic)
-- LeetCode 248: Strobogrammatic Number III (Count in range)
-- LeetCode 140: Word Break II (Similar recursive generation)
+- [Strobogrammatic Number (Check if a number is strobogrammatic)](../sstrobogrammaticnumber/notes.md)
+- [Strobogrammatic Number III (Count in range)](../sstrobogrammaticnumberII/notes.md)
+- [Word Break II (Similar recursive generation)](../wordbreak/notes.md)
 - LeetCode 320: Generalized Abbreviation
-
 ## Tags
 - String
 - Recursion

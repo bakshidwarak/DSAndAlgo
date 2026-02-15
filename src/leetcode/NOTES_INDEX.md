@@ -6,25 +6,25 @@
 
 | # | Problem Name | LeetCode ID | Difficulty | File Path |
 |---|---|---|---|---|
-| 1 | Longest Substring with At Most Two Distinct Characters | 159 | Hard | `longestsubstringwithatmosttwodistinctchars/notes.md` |
-| 2 | Longest Uncommon Subsequence I | 521 | Easy | `longestuncommonsubsequence/notes.md` |
-| 3 | Lowest Common Ancestor of a Binary Search Tree | 235 | Medium | `lowestcommonancestor/notes.md` |
-| 4 | Majority Element II | 229 | Medium | `majorityelement2/notes.md` |
-| 5 | Maximize Distance to Closest Person | 849 | Easy | `maxdistancetoclosestperson/notes.md` |
-| 6 | Maximal Rectangle | 85 | Hard | `maximalrectangle/notes.md` |
-| 7 | Find Median from Data Stream | 295 | Hard | `medianfinder/notes.md` |
-| 8 | Meeting Rooms I | 252 | Easy | `meetingroom1/notes.md` |
-| 9 | Merge Sorted Array | 88 | Easy | `mergearrays/notes.md` |
-| 10 | Merge Intervals | 56 | Medium | `mergeintervals/notes.md` |
-| 11 | Merge K Sorted Linked Lists | 23 | Hard | `mergeksortedlists/notes.md` |
-| 12 | Merge Two Binary Trees | 617 | Easy | `mergetwobinarytrees/notes.md` |
-| 13 | Merge Two Sorted Lists | 21 | Easy | `mergetwosortedlists/notes.md` |
-| 14 | Min Cost Climbing Stairs | 746 | Easy | `mincostclimbingstairs/notes.md` |
-| 15 | Minimum Cost to Hire K Workers | 857 | Hard | `minimumcosttohirekworkers/notes.md` |
-| 16 | Minimum Genetic Mutation | 433 | Medium | `minimumgeneticmutation/notes.md` |
-| 17 | Minimum Moves to Equal Array Elements | 453 | Easy | `minmovestomovearrayelements/notes.md` |
-| 18 | Minimum Path Sum | 64 | Medium | `minpathsum/notes.md` |
-| 19 | Find Mode in Binary Search Tree | 501 | Easy | `modeinabst/notes.md` |
+| 1 | Longest Substring with At Most Two Distinct Characters | 159 | Hard | [longestsubstringwithatmosttwodistinctchars/notes.md](./longestsubstringwithatmosttwodistinctchars/notes.md) |
+| 2 | Longest Uncommon Subsequence I | 521 | Easy | [longestuncommonsubsequence/notes.md](./longestuncommonsubsequence/notes.md) |
+| 3 | Lowest Common Ancestor of a Binary Search Tree | 235 | Medium | [lowestcommonancestor/notes.md](./lowestcommonancestor/notes.md) |
+| 4 | Majority Element II | 229 | Medium | [majorityelement2/notes.md](./majorityelement2/notes.md) |
+| 5 | Maximize Distance to Closest Person | 849 | Easy | [maxdistancetoclosestperson/notes.md](./maxdistancetoclosestperson/notes.md) |
+| 6 | Maximal Rectangle | 85 | Hard | [maximalrectangle/notes.md](./maximalrectangle/notes.md) |
+| 7 | Find Median from Data Stream | 295 | Hard | [medianfinder/notes.md](./medianfinder/notes.md) |
+| 8 | Meeting Rooms I | 252 | Easy | [meetingroom1/notes.md](./meetingroom1/notes.md) |
+| 9 | Merge Sorted Array | 88 | Easy | [mergearrays/notes.md](./mergearrays/notes.md) |
+| 10 | Merge Intervals | 56 | Medium | [mergeintervals/notes.md](./mergeintervals/notes.md) |
+| 11 | Merge K Sorted Linked Lists | 23 | Hard | [mergeksortedlists/notes.md](./mergeksortedlists/notes.md) |
+| 12 | Merge Two Binary Trees | 617 | Easy | [mergetwobinarytrees/notes.md](./mergetwobinarytrees/notes.md) |
+| 13 | Merge Two Sorted Lists | 21 | Easy | [mergetwosortedlists/notes.md](./mergetwosortedlists/notes.md) |
+| 14 | Min Cost Climbing Stairs | 746 | Easy | [mincostclimbingstairs/notes.md](./mincostclimbingstairs/notes.md) |
+| 15 | Minimum Cost to Hire K Workers | 857 | Hard | [minimumcosttohirekworkers/notes.md](./minimumcosttohirekworkers/notes.md) |
+| 16 | Minimum Genetic Mutation | 433 | Medium | [minimumgeneticmutation/notes.md](./minimumgeneticmutation/notes.md) |
+| 17 | Minimum Moves to Equal Array Elements | 453 | Easy | [minmovestomovearrayelements/notes.md](./minmovestomovearrayelements/notes.md) |
+| 18 | Minimum Path Sum | 64 | Medium | [minpathsum/notes.md](./minpathsum/notes.md) |
+| 19 | Find Mode in Binary Search Tree | 501 | Easy | [modeinabst/notes.md](./modeinabst/notes.md) |
 
 ### By Difficulty Level
 
@@ -57,41 +57,41 @@
 ### By Algorithm Type
 
 #### Sliding Window
-- [Longest Substring with At Most Two Distinct Characters](longestsubstringwithatmosttwodistinctchars/notes.md)
+- [Longest Substring with At Most Two Distinct Characters](./longestsubstringwithatmosttwodistinctchars/notes.md)
 
 #### Two Pointers
-- [Merge Sorted Array](mergearrays/notes.md)
-- [Merge Two Sorted Lists](mergetwosortedlists/notes.md)
+- [Merge Sorted Array](./mergearrays/notes.md)
+- [Merge Two Sorted Lists](./mergetwosortedlists/notes.md)
 
 #### Sorting & Greedy
-- [Merge Intervals](mergeintervals/notes.md)
-- [Meeting Rooms I](meetingroom1/notes.md)
+- [Merge Intervals](./mergeintervals/notes.md)
+- [Meeting Rooms I](./meetingroom1/notes.md)
 
 #### Dynamic Programming
-- [Maximal Rectangle](maximalrectangle/notes.md)
-- [Min Cost Climbing Stairs](mincostclimbingstairs/notes.md)
-- [Minimum Path Sum](minpathsum/notes.md)
+- [Maximal Rectangle](./maximalrectangle/notes.md)
+- [Min Cost Climbing Stairs](./mincostclimbingstairs/notes.md)
+- [Minimum Path Sum](./minpathsum/notes.md)
 
 #### Heap / Priority Queue
-- [Find Median from Data Stream](medianfinder/notes.md)
-- [Merge K Sorted Linked Lists](mergeksortedlists/notes.md)
-- [Minimum Cost to Hire K Workers](minimumcosttohirekworkers/notes.md)
+- [Find Median from Data Stream](./medianfinder/notes.md)
+- [Merge K Sorted Linked Lists](./mergeksortedlists/notes.md)
+- [Minimum Cost to Hire K Workers](./minimumcosttohirekworkers/notes.md)
 
 #### Tree Algorithms
-- [Lowest Common Ancestor of a Binary Search Tree](lowestcommonancestor/notes.md)
-- [Merge Two Binary Trees](mergetwobinarytrees/notes.md)
-- [Find Mode in Binary Search Tree](modeinabst/notes.md)
+- [Lowest Common Ancestor of a Binary Search Tree](./lowestcommonancestor/notes.md)
+- [Merge Two Binary Trees](./mergetwobinarytrees/notes.md)
+- [Find Mode in Binary Search Tree](./modeinabst/notes.md)
 
 #### BFS / Graph
-- [Minimum Genetic Mutation](minimumgeneticmutation/notes.md)
+- [Minimum Genetic Mutation](./minimumgeneticmutation/notes.md)
 
 #### Array Algorithms
-- [Majority Element II](majorityelement2/notes.md)
-- [Maximize Distance to Closest Person](maxdistancetoclosestperson/notes.md)
-- [Minimum Moves to Equal Array Elements](minmovestomovearrayelements/notes.md)
+- [Majority Element II](./majorityelement2/notes.md)
+- [Maximize Distance to Closest Person](./maxdistancetoclosestperson/notes.md)
+- [Minimum Moves to Equal Array Elements](./minmovestomovearrayelements/notes.md)
 
 #### String Algorithms
-- [Longest Uncommon Subsequence I](longestuncommonsubsequence/notes.md)
+- [Longest Uncommon Subsequence I](./longestuncommonsubsequence/notes.md)
 
 ### By Data Structure
 

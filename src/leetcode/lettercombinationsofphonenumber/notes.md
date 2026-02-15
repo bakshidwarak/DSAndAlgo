@@ -282,10 +282,10 @@ Similar pattern appears in:
 
 ## Related Problems
 - **Generate Parentheses (LeetCode 22)**: Similar backtracking
-- **Combination Sum (LeetCode 39)**: Backtracking with numbers
-- **Permutations (LeetCode 46)**: Generate all permutations
-- **Subsets (LeetCode 78)**: Generate all subsets
-- **Word Search (LeetCode 79)**: Backtracking on grid
+- [**Combination Sum **](../combinationsum/notes.md): Backtracking with numbers
+- [**Permutations **](../permutations2/notes.md): Generate all permutations
+- [**Subsets **](../subsets/notes.md): Generate all subsets
+- [**Word Search **](../wordsearch/notes.md): Backtracking on grid
 - **Palindrome Partitioning (LeetCode 131)**: Backtracking with strings
 
 ## Tags

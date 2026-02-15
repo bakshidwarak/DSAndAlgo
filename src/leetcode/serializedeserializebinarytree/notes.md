@@ -261,7 +261,6 @@ Our solution uses parameters and local variables, making it truly stateless.
 - 449: Serialize and Deserialize BST
 - 331: Verify Preorder Serialization of a Binary Tree
 - 606: Construct String from Binary Tree
-
 ## Tags
 
 `hard` `tree` `serialization` `depth-first-search` `breadth-first-search` `design`

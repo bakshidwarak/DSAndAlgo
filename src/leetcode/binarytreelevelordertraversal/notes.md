@@ -192,7 +192,7 @@ public List<List<Integer>> levelOrder(TreeNode root) {
 
 ## Related Problems
 - **107. Binary Tree Level Order Traversal II**: Bottom-up level order
-- **103. Binary Tree Zigzag Level Order Traversal**: Alternating left-right direction
+- [**103. Binary Tree Zigzag Level Order Traversal**](../binarytreezigzagtraversal/notes.md): Alternating left-right direction
 - **637. Average of Levels in Binary Tree**: Similar BFS, compute averages
 - **199. Binary Tree Right Side View**: Get rightmost node of each level
 - **515. Find Largest Value in Each Tree Row**: Get maximum of each level

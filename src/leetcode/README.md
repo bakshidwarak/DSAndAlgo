@@ -276,178 +276,178 @@ Each problem includes a `notes.md` file with:
 
 | Problem | Difficulty | Category | Key Technique |
 |---------|-----------|----------|---------------|
-| Add Two Numbers II | Medium | Linked List | Stack |
-| Alien Dictionary | Hard | Graph | Topological Sort |
-| Array Partition I | Easy | Array | Sorting |
-| Atoi | Medium | String | Parsing |
-| Average Levels in Binary Tree | Easy | Tree | BFS |
-| Bad Version Helper | Easy | Binary Search | Modified Binary Search |
-| Balanced Binary Tree | Easy | Tree | DFS |
-| Best Time to Buy/Sell Stock II | Easy | Array | Greedy |
-| Binary Tree Level Order Traversal | Medium | Tree | BFS |
-| Binary Tree Paths | Easy | Tree | DFS |
-| Binary Tree Upside Down | Medium | Tree | Recursion |
-| Binary Tree Zigzag Traversal | Medium | Tree | BFS |
-| Buy and Sell Stock Once | Easy | Array | Greedy |
-| Can Place Flowers | Easy | Array | Greedy |
-| Climbing Stairs | Easy | DP | Fibonacci |
-| Clone Graph | Medium | Graph | DFS + HashMap |
-| Closest BST Value | Easy | Tree | Binary Search |
-| Combination Sum | Medium | Backtracking | Recursion |
-| Combination Sum 2 | Medium | Backtracking | Recursion |
-| Construct Tree from Pre/Inorder | Medium | Tree | Recursion |
-| Copy List with Random Pointer | Medium | Linked List | HashMap |
-| Count and Say | Easy | String | Iteration |
-| Course Schedule | Medium | Graph | Topological Sort |
-| Delete Node in Linked List | Easy | Linked List | Pointer Manipulation |
-| Delete Operation of Two Strings | Medium | DP | Edit Distance |
-| Depth of Binary Tree | Easy | Tree | DFS/BFS |
-| Edit Distance | Hard | DP | 2D DP |
-| Evaluate Division | Medium | Graph | DFS |
-| Excel Sheet Column Title | Easy | Math | Base Conversion |
-| Factor Combinations | Medium | Backtracking | Recursion |
-| Find Celebrity | Medium | Array | Two Pass |
-| Find Leaves in Binary Tree | Medium | Tree | DFS |
-| Fizz Buzz | Easy | Math | Modulo |
-| Flatten Binary Tree | Medium | Tree | DFS |
-| Flipping an Image | Easy | Array | Two Pointers |
-| Four Sum | Medium | Array | Two Pointers |
-| Fruit Into Basket | Medium | Array | Sliding Window |
-| Generate Permutations | Medium | Backtracking | Recursion |
-| Graph Valid Tree | Medium | Graph | Union Find |
-| Guess the Word | Hard | Interactive | Elimination |
-| H-Index | Medium | Array | Bucket Sort |
-| House Robber | Easy | DP | Linear DP |
-| House Robber 2 | Medium | DP | Circular DP |
-| Intersection of Two Arrays | Easy | Array | HashSet |
-| Intersection of Two Arrays II | Easy | Array | HashMap |
-| Invert Binary Tree | Easy | Tree | DFS |
-| Island Perimeter | Easy | Array | DFS |
-| Isomorphic Strings | Easy | String | HashMap |
-| Jewels and Stones | Easy | Array | HashSet |
-| Kth Smallest in BST | Medium | Tree | Inorder Traversal |
-| Largest Value in Tree Level | Medium | Tree | BFS |
-| Leaf Similar Trees | Easy | Tree | DFS |
-| Letter Combinations | Medium | Backtracking | Recursion |
-| License Key Formatting | Easy | String | String Manipulation |
-| Logger Rate Limiter | Easy | Design | HashMap |
-| Longest Common Prefix | Easy | String | Scanning |
-| Longest Continuous Increasing Subseq | Easy | Array | Sliding Window |
-| Longest Increasing Path in Matrix | Hard | DP | DFS + Memoization |
-| Longest Palindromic Subsequence | Medium | DP | 2D DP |
-| Longest Substring (2 Distinct) | Hard | String | Sliding Window |
-| Longest Substring (No Repeat) | Medium | String | Sliding Window |
-| Longest Uncommon Subsequence | Easy | String | Logic |
-| Lowest Common Ancestor | Easy | Tree | BST Property |
-| Majority Element II | Medium | Array | Boyer-Moore |
-| Max Distance to Closest Person | Easy | Array | Two Pass |
-| Maximal Rectangle | Hard | Array | Stack + DP |
-| Median Finder | Hard | Design | Two Heaps |
-| Meeting Room 1 | Easy | Array | Sorting |
-| Merge Arrays | Easy | Array | Two Pointers |
-| Merge Intervals | Medium | Array | Sorting |
-| Merge K Sorted Lists | Hard | Linked List | Heap |
-| Merge Two Binary Trees | Easy | Tree | DFS |
-| Merge Two Sorted Lists | Easy | Linked List | Two Pointers |
-| Min Cost Climbing Stairs | Easy | DP | Linear DP |
-| Minimum Cost to Hire K Workers | Hard | Heap | Priority Queue |
-| Minimum Genetic Mutation | Medium | Graph | BFS |
-| Min Moves to Equal Array | Easy | Math | Math Logic |
-| Minimum Path Sum | Medium | DP | 2D DP |
-| Mode in BST | Easy | Tree | Inorder Traversal |
-| Move Zeroes | Easy | Array | Two Pointers |
-| Moving Average from Data Stream | Easy | Design | Queue |
-| Nested List Iterator | Medium | Design | Stack |
-| Nested List Weighted Sum | Easy | DFS | Recursion |
-| Nested List Weighted Sum 2 | Medium | DFS | Recursion |
-| Next Closest Time | Medium | String | Simulation |
-| Number of 1 Bits | Easy | Bit Manipulation | Bit Counting |
-| Number of Islands | Medium | Graph | DFS/BFS |
-| Numbers Disappeared in Array | Easy | Array | Array Marking |
-| Numbers to English Words | Hard | String | Division |
-| Odd Even Jump | Hard | DP | Monotonic Stack |
-| Paint Houses | Easy | DP | Linear DP |
-| Palindrome Linked List | Easy | Linked List | Two Pointers |
-| Palindrome Number | Easy | Math | Reversal |
-| Pascal's Triangle II | Easy | Array | Recursion |
-| Path Sum | Easy | Tree | DFS |
-| Peak Index in a Mountain | Easy | Binary Search | Modified Binary Search |
-| Peeking Iterator | Medium | Design | Iterator |
-| Perfect Square | Easy | Math | Binary Search |
-| Permutations II | Medium | Backtracking | Recursion |
-| Plus One | Easy | Array | Carry Propagation |
-| Post Order Traversal (N-ary) | Easy | Tree | DFS |
-| Power of Four | Easy | Bit Manipulation | Bit Mask |
-| Power of Three | Easy | Math | Division/Log |
-| Power of Two | Easy | Bit Manipulation | Bit Mask |
-| Prefix and Suffix Search | Hard | Design | Trie |
-| Product of Array Except Self | Medium | Array | Prefix/Suffix |
-| Random Pick Index | Medium | Design | HashMap |
-| Ransom Note | Easy | String | Frequency Count |
-| Read N (Given Read4) | Easy | String | Buffer |
-| Regular Expression Matching | Hard | DP | 2D DP |
-| Remove Duplicates | Easy | Array | Two Pointers |
-| Remove Elements from Linked List | Easy | Linked List | Pointer |
-| Remove Invalid Parentheses | Hard | Backtracking | BFS |
-| Remove Nth Node from Last | Medium | Linked List | Fast-Slow Pointers |
-| Reverse K Nodes | Hard | Linked List | Recursion |
-| Reverse Linked List | Easy | Linked List | Iteration |
-| Reverse Polish Notation | Medium | Stack | Stack |
-| Reverse Vowels | Easy | String | Two Pointers |
-| Reverse Words in String | Medium | String | Two Pointers |
-| Reverse Words in String II | Medium | String | In-place |
-| Reverse Words in String III | Easy | String | Two Pointers |
-| Robot Return to Origin | Easy | String | Simulation |
-| Roman to Integer | Easy | String | HashMap |
-| Rotate List | Medium | Linked List | Pointer |
-| Same Tree | Easy | Tree | DFS |
-| Search in Rotated Array | Medium | Binary Search | Modified Binary Search |
-| Search in Rotated Array II | Medium | Binary Search | Modified Binary Search |
-| Search Insert Position | Easy | Binary Search | Binary Search |
-| Second Minimum Node | Easy | Tree | DFS |
-| Serialize/Deserialize Binary Tree | Hard | Tree | BFS/DFS |
-| Shortest Unsorted Continuous Array | Easy | Array | Sorting |
-| Shortest Word Distance | Easy | Array | One Pass |
-| Shortest Word Distance 2 | Medium | Design | HashMap |
-| Shuffle an Array | Medium | Design | Random |
-| Simplify Path | Medium | Stack | Stack |
-| Single Number | Easy | Bit Manipulation | XOR |
-| Sort Array by Parity | Easy | Array | Two Pointers |
-| Sort Characters by Frequency | Medium | String | Heap |
-| Sort Colors | Medium | Array | Two Pointers |
-| Sort Transformed Array | Medium | Array | Two Pointers |
-| Sorted Array to BST | Easy | Tree | Recursion |
-| Strobogrammatic Number | Easy | String | Two Pointers |
-| Strobogrammatic Number II | Medium | String | Recursion |
-| Subsets | Medium | Backtracking | Recursion |
-| Subsets II | Medium | Backtracking | Recursion |
-| Sum of Leaf Nodes | Easy | Tree | DFS |
-| Sum of Numbers | Medium | Tree | DFS |
-| Sum of Square Numbers | Easy | Math | Two Pointers |
-| Sum Root to Leaf Numbers | Medium | Tree | DFS |
-| Swap Nodes in Pairs | Medium | Linked List | Recursion |
-| Symmetric Tree | Easy | Tree | DFS |
-| Three Sum | Medium | Array | Two Pointers |
-| Top K Frequent Words | Medium | Heap | Heap |
-| Total Hamming Distance | Medium | Bit Manipulation | Bit Counting |
-| Transpose of Matrix | Easy | Array | Matrix |
-| Tree Diameter | Easy | Tree | DFS |
-| Trim BST | Easy | Tree | Recursion |
-| Two Sum | Easy | Array | HashMap |
-| Two Sum II | Easy | Array | Two Pointers |
-| Two Sum BST | Easy | Tree | Inorder + Two Pointers |
-| Unique Paths II | Medium | DP | 2D DP |
-| Valid Anagrams | Easy | String | Frequency Count |
-| Valid Number | Hard | String | State Machine |
-| Valid Palindrome | Easy | String | Two Pointers |
-| Valid Palindrome 2 | Easy | String | Greedy |
-| Valid Triangle Number | Medium | Array | Two Pointers |
-| Word Break | Medium | DP | Linear DP |
-| Word Break II | Hard | DP + Backtracking | DFS |
-| Word Dictionary | Medium | Design | Trie |
-| Word Ladder | Medium | Graph | BFS |
-| Word Search | Medium | Graph | DFS |
-| Zigzag Conversion | Medium | String | Simulation |
+| [Add Two Numbers II](./addtwonumbersII/notes.md) | Medium | Linked List | Stack |
+| [Alien Dictionary](./aliendictionary/notes.md) | Hard | Graph | Topological Sort |
+| [Array Partition I](./arraypartition1/notes.md) | Easy | Array | Sorting |
+| [Atoi](./atoi/notes.md) | Medium | String | Parsing |
+| [Average Levels in Binary Tree](./averagelevelsinabinarytree/notes.md) | Easy | Tree | BFS |
+| [Bad Version Helper](./badversionhelper/notes.md) | Easy | Binary Search | Modified Binary Search |
+| [Balanced Binary Tree](./balancedbinarytree/notes.md) | Easy | Tree | DFS |
+| [Best Time to Buy/Sell Stock II](./besttimetobuyandsellstockII/notes.md) | Easy | Array | Greedy |
+| [Binary Tree Level Order Traversal](./binarytreelevelordertraversal/notes.md) | Medium | Tree | BFS |
+| [Binary Tree Paths](./binarytreepaths/notes.md) | Easy | Tree | DFS |
+| [Binary Tree Upside Down](./binarytreeupsidedown/notes.md) | Medium | Tree | Recursion |
+| [Binary Tree Zigzag Traversal](./binarytreezigzagtraversal/notes.md) | Medium | Tree | BFS |
+| [Buy and Sell Stock Once](./buyandsellstockonce/notes.md) | Easy | Array | Greedy |
+| [Can Place Flowers](./canplaceflowers/notes.md) | Easy | Array | Greedy |
+| [Climbing Stairs](./climbingstairs/notes.md) | Easy | DP | Fibonacci |
+| [Clone Graph](./clonegraph/notes.md) | Medium | Graph | DFS + HashMap |
+| [Closest BST Value](./closestbinarysearchtreevalue/notes.md) | Easy | Tree | Binary Search |
+| [Combination Sum](./combinationsum/notes.md) | Medium | Backtracking | Recursion |
+| [Combination Sum 2](./combinationsum2/notes.md) | Medium | Backtracking | Recursion |
+| [Construct Tree from Pre/Inorder](./constructtreefrompreinorder/notes.md) | Medium | Tree | Recursion |
+| [Copy List with Random Pointer](./copylistwithrandompointer/notes.md) | Medium | Linked List | HashMap |
+| [Count and Say](./countandsay/notes.md) | Easy | String | Iteration |
+| [Course Schedule](./courseschedule/notes.md) | Medium | Graph | Topological Sort |
+| [Delete Node in Linked List](./deletenode/notes.md) | Easy | Linked List | Pointer Manipulation |
+| [Delete Operation of Two Strings](./deleteoperationoftwostrings/notes.md) | Medium | DP | Edit Distance |
+| [Depth of Binary Tree](./depthofa binarytree/notes.md) | Easy | Tree | DFS/BFS |
+| [Edit Distance](./editdistance/notes.md) | Hard | DP | 2D DP |
+| [Evaluate Division](./evaluatedivision/notes.md) | Medium | Graph | DFS |
+| [Excel Sheet Column Title](./excelsheetcolumntitle/notes.md) | Easy | Math | Base Conversion |
+| [Factor Combinations](./factorcombinations/notes.md) | Medium | Backtracking | Recursion |
+| [Find Celebrity](./findcelebrity/notes.md) | Medium | Array | Two Pass |
+| [Find Leaves in Binary Tree](./findleavesinbinarytree/notes.md) | Medium | Tree | DFS |
+| [Fizz Buzz](./fizzbuzz/notes.md) | Easy | Math | Modulo |
+| [Flatten Binary Tree](./flattenabinarytree/notes.md) | Medium | Tree | DFS |
+| [Flipping an Image](./flipinganimage/notes.md) | Easy | Array | Two Pointers |
+| [Four Sum](./FourSum/notes.md) | Medium | Array | Two Pointers |
+| [Fruit Into Basket](./fruitintobasket/notes.md) | Medium | Array | Sliding Window |
+| [Generate Permutations](./generatepermutations/notes.md) | Medium | Backtracking | Recursion |
+| [Graph Valid Tree](./graphvalidtree/notes.md) | Medium | Graph | Union Find |
+| [Guess the Word](./guesstheword/notes.md) | Hard | Interactive | Elimination |
+| [H-Index](./hindex/notes.md) | Medium | Array | Bucket Sort |
+| [House Robber](./houserobber/notes.md) | Easy | DP | Linear DP |
+| [House Robber 2](./houserobber2/notes.md) | Medium | DP | Circular DP |
+| [Intersection of Two Arrays](./intersectionoftwoarerays/notes.md) | Easy | Array | HashSet |
+| [Intersection of Two Arrays II](./intersectionoftwoareraysii/notes.md) | Easy | Array | HashMap |
+| [Invert Binary Tree](./invertabinarytree/notes.md) | Easy | Tree | DFS |
+| [Island Perimeter](./islandperimeter/notes.md) | Easy | Array | DFS |
+| [Isomorphic Strings](./isomorphicstrings/notes.md) | Easy | String | HashMap |
+| [Jewels and Stones](./jewelsandstones/notes.md) | Easy | Array | HashSet |
+| [Kth Smallest in BST](./kthsmallestinbst/notes.md) | Medium | Tree | Inorder Traversal |
+| [Largest Value in Tree Level](./largestvalueintreelevel/notes.md) | Medium | Tree | BFS |
+| [Leaf Similar Trees](./leafsimilartrees/notes.md) | Easy | Tree | DFS |
+| [Letter Combinations](./lettercombinations/notes.md) | Medium | Backtracking | Recursion |
+| [License Key Formatting](./licensekeyformatting/notes.md) | Easy | String | String Manipulation |
+| [Logger Rate Limiter](./loggerratelimiter/notes.md) | Easy | Design | HashMap |
+| [Longest Common Prefix](./longestcommonprefix/notes.md) | Easy | String | Scanning |
+| [Longest Continuous Increasing Subseq](./longestcontinuousincreasingsubsequence/notes.md) | Easy | Array | Sliding Window |
+| [Longest Increasing Path in Matrix](./longestincreasingpathinmatrix/notes.md) | Hard | DP | DFS + Memoization |
+| [Longest Palindromic Subsequence](./longestpalindromicsubsequence/notes.md) | Medium | DP | 2D DP |
+| [Longest Substring (2 Distinct)](./longestsubstringwithatmosttwocharacters/notes.md) | Hard | String | Sliding Window |
+| [Longest Substring (No Repeat)](./longestsubstringwithoutrepeatingcharacters/notes.md) | Medium | String | Sliding Window |
+| [Longest Uncommon Subsequence](./longestuncommonsubsequence/notes.md) | Easy | String | Logic |
+| [Lowest Common Ancestor](./lowestcommonancestor/notes.md) | Easy | Tree | BST Property |
+| [Majority Element II](./majorityelementii/notes.md) | Medium | Array | Boyer-Moore |
+| [Max Distance to Closest Person](./maxdistancetoclosestperson/notes.md) | Easy | Array | Two Pass |
+| [Maximal Rectangle](./maximalrectangle/notes.md) | Hard | Array | Stack + DP |
+| [Median Finder](./medianfinder/notes.md) | Hard | Design | Two Heaps |
+| [Meeting Room 1](./meetingroom1/notes.md) | Easy | Array | Sorting |
+| [Merge Arrays](./mergearrays/notes.md) | Easy | Array | Two Pointers |
+| [Merge Intervals](./mergeintervals/notes.md) | Medium | Array | Sorting |
+| [Merge K Sorted Lists](./mergeketorted lists/notes.md) | Hard | Linked List | Heap |
+| [Merge Two Binary Trees](./mergetwobinarytrees/notes.md) | Easy | Tree | DFS |
+| [Merge Two Sorted Lists](./mergetwosortedlists/notes.md) | Easy | Linked List | Two Pointers |
+| [Min Cost Climbing Stairs](./minclimbingstairs/notes.md) | Easy | DP | Linear DP |
+| [Minimum Cost to Hire K Workers](./minimumcosttohirek workers/notes.md) | Hard | Heap | Priority Queue |
+| [Minimum Genetic Mutation](./minimumgeneticmutation/notes.md) | Medium | Graph | BFS |
+| [Min Moves to Equal Array](./minmovesequalarray/notes.md) | Easy | Math | Math Logic |
+| [Minimum Path Sum](./minimumpathsum/notes.md) | Medium | DP | 2D DP |
+| [Mode in BST](./modeinbst/notes.md) | Easy | Tree | Inorder Traversal |
+| [Move Zeroes](./movezeroes/notes.md) | Easy | Array | Two Pointers |
+| [Moving Average from Data Stream](./movinaveragefromdatastream/notes.md) | Easy | Design | Queue |
+| [Nested List Iterator](./nestedlistiterator/notes.md) | Medium | Design | Stack |
+| [Nested List Weighted Sum](./nestedlistweightedsum/notes.md) | Easy | DFS | Recursion |
+| [Nested List Weighted Sum 2](./nestedlistweightedsum2/notes.md) | Medium | DFS | Recursion |
+| [Next Closest Time](./nextclosesttime/notes.md) | Medium | String | Simulation |
+| [Number of 1 Bits](./numberof1bits/notes.md) | Easy | Bit Manipulation | Bit Counting |
+| [Number of Islands](./numberofislands/notes.md) | Medium | Graph | DFS/BFS |
+| [Numbers Disappeared in Array](./numbersdisappearinanarray/notes.md) | Easy | Array | Array Marking |
+| [Numbers to English Words](./numbertoenglishwords/notes.md) | Hard | String | Division |
+| [Odd Even Jump](./oddevenjump/notes.md) | Hard | DP | Monotonic Stack |
+| [Paint Houses](./painthouses/notes.md) | Easy | DP | Linear DP |
+| [Palindrome Linked List](./palindromelinkedlist/notes.md) | Easy | Linked List | Two Pointers |
+| [Palindrome Number](./palindromenumber/notes.md) | Easy | Math | Reversal |
+| [Pascal's Triangle II](./pascals triangle/notes.md) | Easy | Array | Recursion |
+| [Path Sum](./pathsum/notes.md) | Easy | Tree | DFS |
+| [Peak Index in a Mountain](./peakindex/notes.md) | Easy | Binary Search | Modified Binary Search |
+| [Peeking Iterator](./peekingiterator/notes.md) | Medium | Design | Iterator |
+| [Perfect Square](./perfectsquares/notes.md) | Easy | Math | Binary Search |
+| [Permutations II](./permutationsii/notes.md) | Medium | Backtracking | Recursion |
+| [Plus One](./plusone/notes.md) | Easy | Array | Carry Propagation |
+| [Post Order Traversal (N-ary)](./postordertraversalnary/notes.md) | Easy | Tree | DFS |
+| [Power of Four](./poweroffour/notes.md) | Easy | Bit Manipulation | Bit Mask |
+| [Power of Three](./powerofthree/notes.md) | Easy | Math | Division/Log |
+| [Power of Two](./poweroftwo/notes.md) | Easy | Bit Manipulation | Bit Mask |
+| [Prefix and Suffix Search](./prefixandsuffixsearch/notes.md) | Hard | Design | Trie |
+| [Product of Array Except Self](./productofarrayexceptself/notes.md) | Medium | Array | Prefix/Suffix |
+| [Random Pick Index](./randompickindex/notes.md) | Medium | Design | HashMap |
+| [Ransom Note](./ransomote/notes.md) | Easy | String | Frequency Count |
+| [Read N (Given Read4)](./readngivenread4/notes.md) | Easy | String | Buffer |
+| [Regular Expression Matching](./regularexpressionmatching/notes.md) | Hard | DP | 2D DP |
+| [Remove Duplicates](./removeduplicates/notes.md) | Easy | Array | Two Pointers |
+| [Remove Elements from Linked List](./removeelementslinkedlist/notes.md) | Easy | Linked List | Pointer |
+| [Remove Invalid Parentheses](./removeinvalidparentheses/notes.md) | Hard | Backtracking | BFS |
+| [Remove Nth Node from Last](./removenthnodefromlast/notes.md) | Medium | Linked List | Fast-Slow Pointers |
+| [Reverse K Nodes](./reverseknodes/notes.md) | Hard | Linked List | Recursion |
+| [Reverse Linked List](./reverselinkedlist/notes.md) | Easy | Linked List | Iteration |
+| [Reverse Polish Notation](./reversepolishnotation/notes.md) | Medium | Stack | Stack |
+| [Reverse Vowels](./reversevowels/notes.md) | Easy | String | Two Pointers |
+| [Reverse Words in String](./reversewords/notes.md) | Medium | String | Two Pointers |
+| [Reverse Words in String II](./reversewordsii/notes.md) | Medium | String | In-place |
+| [Reverse Words in String III](./reversewordsiii/notes.md) | Easy | String | Two Pointers |
+| [Robot Return to Origin](./robotreturntorigin/notes.md) | Easy | String | Simulation |
+| [Roman to Integer](./romantointeger/notes.md) | Easy | String | HashMap |
+| [Rotate List](./rotatelist/notes.md) | Medium | Linked List | Pointer |
+| [Same Tree](./sametree/notes.md) | Easy | Tree | DFS |
+| [Search in Rotated Array](./searchinrotatedarray/notes.md) | Medium | Binary Search | Modified Binary Search |
+| [Search in Rotated Array II](./searchinrotatedarrayii/notes.md) | Medium | Binary Search | Modified Binary Search |
+| [Search Insert Position](./searchinsertposition/notes.md) | Easy | Binary Search | Binary Search |
+| [Second Minimum Node](./secondminimumnode/notes.md) | Easy | Tree | DFS |
+| [Serialize/Deserialize Binary Tree](./serializedeserializebinarytree/notes.md) | Hard | Tree | BFS/DFS |
+| [Shortest Unsorted Continuous Array](./shortestunsortedcontinousarray/notes.md) | Easy | Array | Sorting |
+| [Shortest Word Distance](./shortestworddistance/notes.md) | Easy | Array | One Pass |
+| [Shortest Word Distance 2](./shortestworddistance2/notes.md) | Medium | Design | HashMap |
+| [Shuffle an Array](./shuffleanarray/notes.md) | Medium | Design | Random |
+| [Simplify Path](./simplifypath/notes.md) | Medium | Stack | Stack |
+| [Single Number](./singlenumber/notes.md) | Easy | Bit Manipulation | XOR |
+| [Sort Array by Parity](./sortarraybyparity/notes.md) | Easy | Array | Two Pointers |
+| [Sort Characters by Frequency](./sortcharactersbyfrequency/notes.md) | Medium | String | Heap |
+| [Sort Colors](./sortcolors/notes.md) | Medium | Array | Two Pointers |
+| [Sort Transformed Array](./sorttransformedarray/notes.md) | Medium | Array | Two Pointers |
+| [Sorted Array to BST](./sortedarraytobst/notes.md) | Easy | Tree | Recursion |
+| [Strobogrammatic Number](./sstrobogrammaticnumber/notes.md) | Easy | String | Two Pointers |
+| [Strobogrammatic Number II](./sstrobogrammaticnumberII/notes.md) | Medium | String | Recursion |
+| [Subsets](./subsets/notes.md) | Medium | Backtracking | Recursion |
+| [Subsets II](./subsetsII/notes.md) | Medium | Backtracking | Recursion |
+| [Sum of Leaf Nodes](./sumofleafnodes/notes.md) | Easy | Tree | DFS |
+| [Sum of Numbers](./sumofnumbers/notes.md) | Medium | Tree | DFS |
+| [Sum of Square Numbers](./sumofsquarenumbers/notes.md) | Easy | Math | Two Pointers |
+| [Sum Root to Leaf Numbers](./sumroottoleafnumbers/notes.md) | Medium | Tree | DFS |
+| [Swap Nodes in Pairs](./swapnodesinpairs/notes.md) | Medium | Linked List | Recursion |
+| [Symmetric Tree](./symmetrictree/notes.md) | Easy | Tree | DFS |
+| [Three Sum](./threesum/notes.md) | Medium | Array | Two Pointers |
+| [Top K Frequent Words](./topkfrequentwords/notes.md) | Medium | Heap | Heap |
+| [Total Hamming Distance](./totalhammingdistance/notes.md) | Medium | Bit Manipulation | Bit Counting |
+| [Transpose of Matrix](./transposeofamatrix/notes.md) | Easy | Array | Matrix |
+| [Tree Diameter](./treediameter/notes.md) | Easy | Tree | DFS |
+| [Trim BST](./trimbst/notes.md) | Easy | Tree | Recursion |
+| [Two Sum](./twosum/notes.md) | Easy | Array | HashMap |
+| [Two Sum II](./twosumii/notes.md) | Easy | Array | Two Pointers |
+| [Two Sum BST](./twosumbst/notes.md) | Easy | Tree | Inorder + Two Pointers |
+| [Unique Paths II](./uniquepathsii/notes.md) | Medium | DP | 2D DP |
+| [Valid Anagrams](./validanagrams/notes.md) | Easy | String | Frequency Count |
+| [Valid Number](./validnumber/notes.md) | Hard | String | State Machine |
+| [Valid Palindrome](./validpalindrome/notes.md) | Easy | String | Two Pointers |
+| [Valid Palindrome 2](./validpalindrome2/notes.md) | Easy | String | Greedy |
+| [Valid Triangle Number](./validtrianglenumber/notes.md) | Medium | Array | Two Pointers |
+| [Word Break](./wordbreak/notes.md) | Medium | DP | Linear DP |
+| [Word Break II](./wordbreakii/notes.md) | Hard | DP + Backtracking | DFS |
+| [Word Dictionary](./worddictionary/notes.md) | Medium | Design | Trie |
+| [Word Ladder](./wordladder/notes.md) | Medium | Graph | BFS |
+| [Word Search](./wordsearch/notes.md) | Medium | Graph | DFS |
+| [Zigzag Conversion](./zigzagconversion/notes.md) | Medium | String | Simulation |
 
 ## 💡 Tips for Interview Preparation
 

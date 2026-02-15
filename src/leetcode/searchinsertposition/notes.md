@@ -189,7 +189,6 @@ This iterative approach is cleaner:
 - 278: First Bad Version
 - 702: Search in a Sorted Array of Unknown Size
 - 704: Binary Search
-
 ## Tags
 
 `easy` `binary-search` `array` `sorted-array` `insertion`

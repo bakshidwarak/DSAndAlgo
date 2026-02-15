@@ -206,7 +206,6 @@ public int shortestDistanceAlt(String[] words, String word1, String word2) {
 - 244: Shortest Word Distance II (multiple queries, preprocessing)
 - 245: Shortest Word Distance III (word1 and word2 can be the same)
 - 1166: Design File System
-
 ## Tags
 
 `easy` `array` `string` `one-pass` `optimization`

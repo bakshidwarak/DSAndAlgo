@@ -199,10 +199,9 @@ private int depth(TreeNode node) {
 ## Related Problems
 - LeetCode 104: Maximum Depth of Binary Tree
 - LeetCode 110: Balanced Binary Tree
-- LeetCode 100: Same Tree
-- LeetCode 101: Symmetric Tree
+- [Same Tree](../sametree/notes.md)
+- [Symmetric Tree](../symmetrictree/notes.md)
 - LeetCode 1522: Diameter of N-ary Tree
-
 ## Tags
 - Tree
 - DFS

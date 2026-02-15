@@ -285,7 +285,6 @@ Output: 2
 3. **LeetCode 752 - Open the Lock:** BFS with step counter
 4. **LeetCode 1956 - Minimum Time For K Virus Variants:** BFS variation
 5. **LeetCode 773 - Sliding Puzzle:** BFS on puzzle states
-
 ## Tags
 
 `#Breadth-First-Search` `#Graph` `#String` `#Shortest-Path` `#Medium`

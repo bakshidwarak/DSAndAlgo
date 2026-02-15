@@ -224,7 +224,6 @@ public ListNode removeElementsDummy(ListNode head, int val) {
 3. **LeetCode 237**: Delete Node in a Linked List
 4. **LeetCode 83**: Remove Duplicates from Sorted List
 5. **LeetCode 1474**: Delete N Nodes After M Nodes
-
 ## Tags
 
 - Linked List

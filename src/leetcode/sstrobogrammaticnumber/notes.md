@@ -151,11 +151,10 @@ public boolean isStrobogrammatic(String num) {
 8. Leading zeros: "0" → true, "00" → true
 
 ## Related Problems
-- LeetCode 247: Strobogrammatic Number II (Generate all strobogrammatic numbers of n digits)
-- LeetCode 248: Strobogrammatic Number III (Count strobogrammatic numbers in a range)
+- [Strobogrammatic Number II (Generate all strobogrammatic numbers of n digits)](../sstrobogrammaticnumberII/notes.md)
+- [Strobogrammatic Number III (Count strobogrammatic numbers in a range)](../sstrobogrammaticnumberII/notes.md)
 - LeetCode 9: Palindrome Number
-- LeetCode 125: Valid Palindrome
-
+- [Valid Palindrome](../validpalindrome/notes.md)
 ## Tags
 - String
 - Two Pointers

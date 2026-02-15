@@ -196,7 +196,6 @@ public ListNode rotateRight(ListNode head, int k) {
 - 24: Swap Nodes in Pairs
 - 25: Reverse Nodes in k-Group
 - 143: Reorder List
-
 ## Tags
 
 `medium` `linked-list` `two-pointer` `rotation` `modulo`

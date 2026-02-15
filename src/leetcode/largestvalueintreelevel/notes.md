@@ -285,11 +285,11 @@ Where:
 - h = height of tree
 
 ## Related Problems
-- **Binary Tree Level Order Traversal (LeetCode 102)**: Similar level-order traversal
-- **Binary Tree Zigzag Level Order Traversal (LeetCode 103)**: Alternating direction
-- **Average of Levels in Binary Tree (LeetCode 637)**: Compute average instead of max
-- **Minimum Depth of Binary Tree (LeetCode 111)**: Level-based calculation
-- **Maximum Width of Binary Tree (LeetCode 662)**: Width calculation
+- [**Binary Tree Level Order Traversal **](../binarytreelevelordertraversal/notes.md): Similar level-order traversal
+- [**Binary Tree Zigzag Level Order Traversal **](../binarytreelevelordertraversal/notes.md): Alternating direction
+- [**Average of Levels in Binary Tree **](../averagelevelsinabinarytree/notes.md): Compute average instead of max
+- [**Minimum Depth of Binary Tree **](../depthofabinarytree/notes.md): Level-based calculation
+- [**Maximum Width of Binary Tree **](../depthofabinarytree/notes.md): Width calculation
 
 ## Tags
 - Tree

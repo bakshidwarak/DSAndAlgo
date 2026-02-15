@@ -208,9 +208,9 @@ Return count = 1
 ## Related Problems
 
 1. **LeetCode 130** - Surrounded Regions (Similar grid DFS)
-2. **LeetCode 133** - Clone Graph (Graph copying)
-3. **LeetCode 207** - Course Schedule (Graph cycle detection)
-4. **LeetCode 269** - Alien Dictionary (Topological sort)
+2. [Clone Graph](../clonegraph/notes.md)
+3. [Course Schedule](../courseschedule/notes.md)
+4. [Alien Dictionary](../aliendictionary/notes.md)
 5. **LeetCode 417** - Pacific Atlantic Water Flow (Grid DFS)
 6. **LeetCode 827** - Making A Large Island (DFS variant)
 

@@ -292,11 +292,11 @@ Output: 2
 | Palindrome Partitioning | All partitions | Yes | O(n·2^n) | O(n²) |
 
 ## Related Problems
-- **Longest Palindromic Substring (LeetCode 5)**: Contiguous version
+- [**Longest Palindromic Substring **](../longestpalindromicsubsequence/notes.md): Contiguous version
 - **Palindrome Partitioning (LeetCode 131)**: Find all partitions
 - **Palindrome Partitioning II (LeetCode 132)**: Minimum cuts
-- **Longest Common Subsequence (LeetCode 1143)**: Similar DP pattern
-- **Edit Distance (LeetCode 72)**: Similar 2D DP
+- [**Longest Common Subsequence **](../longestuncommonsubsequence/notes.md): Similar DP pattern
+- [**Edit Distance **](../editdistance/notes.md): Similar 2D DP
 
 ## Tags
 - String

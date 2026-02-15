@@ -237,7 +237,6 @@ Result:
 - LeetCode 235: Lowest Common Ancestor of a BST
 - LeetCode 450: Delete Node in a BST
 - LeetCode 108: Convert Sorted Array to BST
-
 ## Tags
 - Tree
 - Binary Search Tree

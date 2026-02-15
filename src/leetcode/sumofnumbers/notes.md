@@ -160,11 +160,10 @@ public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
    - [9,9,9,9,9] + [9,9,9,9,9] = [8,9,9,9,9,1]
 
 ## Related Problems
-- LeetCode 445: Add Two Numbers II (Forward order)
+- [Add Two Numbers II (Forward order)](../sumofnumbers/notes.md)
 - LeetCode 67: Add Binary
 - LeetCode 415: Add Strings
 - LeetCode 989: Add to Array-Form of Integer
-
 ## Tags
 - Linked List
 - Math

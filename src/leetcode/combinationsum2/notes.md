@@ -181,7 +181,7 @@ public void helper(int[] candidates, int target, int index,
 - **Multiple duplicates**: [1,1,1,2], target=3 → [[1,1,1], [1,2]]
 
 ## Related Problems
-- **39. Combination Sum**: Can reuse elements unlimited times
+- [**39. Combination Sum**](../combinationsum/notes.md): Can reuse elements unlimited times
 - **216. Combination Sum III**: Use exactly k numbers
 - **377. Combination Sum IV**: Count combinations with order
 - **78. Subsets**: Generate all subsets (similar backtracking)

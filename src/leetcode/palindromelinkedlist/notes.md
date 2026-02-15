@@ -211,9 +211,9 @@ Final: 3->2->1 (reversed)
 
 1. **LeetCode 141** - Linked List Cycle (Two pointers to detect cycle)
 2. **LeetCode 143** - Reorder List (Reverse and rearrange)
-3. **LeetCode 206** - Reverse Linked List (Reversal technique)
+3. [Reverse Linked List](../reverselinkedlist/notes.md)
 4. **LeetCode 876** - Middle of the Linked List (Find middle)
-5. **LeetCode 125** - Valid Palindrome (String palindrome variant)
+5. [Valid Palindrome](../validpalindrome/notes.md)
 
 ## Tags
 

@@ -175,7 +175,7 @@ isPerfectSquare(16):
 
 1. **LeetCode 69** - Sqrt(x) (Find integer square root)
 2. **LeetCode 374** - Guess Number Higher or Lower (Binary search pattern)
-3. **LeetCode 35** - Search Insert Position (Binary search)
+3. [Search Insert Position](../searchinsertposition/notes.md)
 4. **LeetCode 33** - Search in Rotated Sorted Array (Advanced binary search)
 5. **LeetCode 1064** - Fixed Point (Binary search variant)
 

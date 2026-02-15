@@ -146,12 +146,11 @@ public void helper(int[] nums, int index, List<Integer> current, List<List<Integ
 | Output | All 2^n subsets | Unique subsets only |
 
 ## Related Problems
-- LeetCode 78: Subsets
+- [Subsets](../subsets/notes.md)
 - LeetCode 77: Combinations
 - LeetCode 40: Combination Sum II
 - LeetCode 47: Permutations II
 - LeetCode 17: Letter Combinations of a Phone Number
-
 ## Tags
 - Array
 - Backtracking

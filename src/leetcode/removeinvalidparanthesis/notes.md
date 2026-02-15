@@ -244,7 +244,6 @@ public boolean isValid(char[] input) {
 3. **LeetCode 22**: Generate Parentheses - Generate valid combinations
 4. **LeetCode 1541**: Minimum Insertions to Balance - Modify string
 5. **LeetCode 1249**: Minimum Remove to Make Valid Parentheses
-
 ## Tags
 
 - Backtracking

@@ -162,7 +162,6 @@ public boolean isPowerOfThreeMaxPower(int n) {
 2. **LeetCode 342**: Power of Four - Similar for base 4
 3. **LeetCode 50**: Pow(x, n) - Calculate power
 4. **LeetCode 367**: Valid Perfect Square - Similar divisibility check
-
 ## Tags
 
 - Math

@@ -221,7 +221,6 @@ public class WordFilter {
 3. **LeetCode 648**: Replace Words - Trie-based word filtering
 4. **LeetCode 676**: Implement Magic Dictionary - Trie with queries
 5. **LeetCode 642**: Design Search Autocomplete System
-
 ## Tags
 
 - Trie

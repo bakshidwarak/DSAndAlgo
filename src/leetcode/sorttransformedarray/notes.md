@@ -160,10 +160,9 @@ public int calc(int num, int a, int b, int c) {
 
 ## Related Problems
 - LeetCode 11: Container With Most Water
-- LeetCode 15: 3Sum
-- LeetCode 167: Two Sum II
-- LeetCode 259: 3Sum Smaller
-
+- [3Sum](../threesum/notes.md)
+- [Two Sum II](../twosum2/notes.md)
+- [3Sum Smaller](../threesum/notes.md)
 ## Tags
 - Array
 - Two Pointers

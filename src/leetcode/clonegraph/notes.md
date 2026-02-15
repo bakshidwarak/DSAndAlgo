@@ -194,7 +194,7 @@ public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
 - **Complete graph**: Every node connected to every other node
 
 ## Related Problems
-- **138. Copy List with Random Pointer**: Similar cloning with extra pointers
+- [**138. Copy List with Random Pointer**](../copylistwithrandompointer/notes.md): Similar cloning with extra pointers
 - **1485. Clone Binary Tree With Random Pointer**: Tree cloning variant
 - **Graph traversal problems**: Use similar DFS/BFS approaches
 

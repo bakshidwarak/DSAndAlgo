@@ -233,7 +233,6 @@ public int singleNumberSort(int[] nums) {
 - 260: Single Number III (two elements appear once)
 - 268: Missing Number (missing element in array)
 - 287: Find the Duplicate Number
-
 ## Tags
 
 `easy` `bit-manipulation` `xor` `array` `optimization` `math`

@@ -212,7 +212,7 @@ String[] bigs = {
 1. **LeetCode 12** - Integer to Roman (Similar conversion)
 2. **LeetCode 13** - Roman to Integer (Reverse conversion)
 3. **LeetCode 165** - Compare Version Numbers (String parsing)
-4. **LeetCode 71** - Simplify Path (String manipulation)
+4. [Simplify Path](../simplifypath/notes.md)
 5. **LeetCode 224** - Basic Calculator (Parsing expressions)
 
 ## Tags

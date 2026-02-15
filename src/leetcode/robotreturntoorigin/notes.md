@@ -153,7 +153,6 @@ public boolean judgeCircle(String moves) {
 - 1790: Check if String is Equal
 - 2133: Check if Every Row and Column Contains All Numbers
 - 463: Island Perimeter
-
 ## Tags
 
 `easy` `string` `simulation` `counting` `array` `mathematics`

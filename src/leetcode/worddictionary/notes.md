@@ -241,7 +241,6 @@ addWord("bad"), search("xyz") → false
 3. **LeetCode 236 - Lowest Common Ancestor:** Tree traversal patterns
 4. **LeetCode 421 - Maximum XOR of Two Numbers:** Trie with bits
 5. **LeetCode 1166 - Design File System:** Similar design problem
-
 ## Trie Advantages
 
 1. **Prefix Matching:** Efficient for words starting with prefix

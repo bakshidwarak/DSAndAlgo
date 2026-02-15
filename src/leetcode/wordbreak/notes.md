@@ -237,7 +237,6 @@ Input: s = "ab", dict = ["a"], Output: false
 3. **LeetCode 301 - Remove Invalid Parentheses:** Similar DP segmentation
 4. **LeetCode 97 - Interleaving String:** DP matching problem
 5. **LeetCode 212 - Word Search II:** Word search with dictionary
-
 ## Tags
 
 `#Dynamic-Programming` `#String` `#Hash-Table` `#BFS` `#Medium`

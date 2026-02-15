@@ -276,11 +276,11 @@ Where:
 - n = number of strings
 
 ## Related Problems
-- **Longest Common Subsequence (LeetCode 1143)**: More complex version
-- **Shortest Common Supersequence (LeetCode 1092)**: Related concept
+- [**Longest Common Subsequence **](../longestuncommonsubsequence/notes.md): More complex version
+- [**Shortest Common Supersequence **](../longestuncommonsubsequence/notes.md): Related concept
 - **Find the Index of First Occurrence (LeetCode 28)**: String matching
 - **Implement strStr() (LeetCode 28)**: Substring search
-- **Valid Palindrome (LeetCode 125)**: Character comparison
+- [**Valid Palindrome **](../validpalindrome/notes.md): Character comparison
 
 ## Tags
 - String

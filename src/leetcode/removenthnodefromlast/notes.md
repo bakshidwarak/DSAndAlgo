@@ -273,7 +273,6 @@ public ListNode removeNthFromEndTwoPass(ListNode head, int n) {
 3. **LeetCode 23**: Merge k Sorted Lists
 4. **LeetCode 25**: Reverse Nodes in K-Group
 5. **LeetCode 328**: Odd Even Linked List
-
 ## Tags
 
 - Linked List

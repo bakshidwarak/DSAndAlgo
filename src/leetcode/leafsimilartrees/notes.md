@@ -270,11 +270,11 @@ public void dfs(TreeNode root, List<Integer> seq) {
    - Need null checks
 
 ## Related Problems
-- **Same Tree (LeetCode 100)**: Compare entire tree structure
-- **Symmetric Tree (LeetCode 101)**: Check mirror symmetry
-- **Sum of Left Leaves (LeetCode 404)**: Sum specific leaves
-- **Find Leaves of Binary Tree (LeetCode 366)**: Group leaves by level
-- **Binary Tree Paths (LeetCode 257)**: Find all root-to-leaf paths
+- [**Same Tree **](../sametree/notes.md): Compare entire tree structure
+- [**Symmetric Tree **](../symmetrictree/notes.md): Check mirror symmetry
+- [**Sum of Left Leaves **](../sumofleafnodes/notes.md): Sum specific leaves
+- [**Find Leaves of Binary Tree **](../findleavesinbinarytree/notes.md): Group leaves by level
+- [**Binary Tree Paths **](../binarytreepaths/notes.md): Find all root-to-leaf paths
 
 ## Tags
 - Tree

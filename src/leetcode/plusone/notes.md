@@ -129,7 +129,6 @@ return result;
 2. **LeetCode 415**: Add Strings - Similar digit-by-digit addition
 3. **LeetCode 989**: Add to Array-Form of Integer - Similar increment operation
 4. **LeetCode 2**: Add Two Numbers - More complex addition with linked lists
-
 ## Tags
 
 - Array

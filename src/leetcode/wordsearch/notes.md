@@ -270,7 +270,6 @@ Input: board = [["A","B"],["C","D"]], word = "ACDB", Output: true
 3. **LeetCode 130 - Surrounded Regions:** Similar board DFS
 4. **LeetCode 200 - Number of Islands:** Connected components
 5. **LeetCode 542 - 01 Matrix:** BFS on board
-
 ## Tags
 
 `#Backtracking` `#DFS` `#Array` `#Matrix` `#Medium`

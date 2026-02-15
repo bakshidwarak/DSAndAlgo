@@ -153,10 +153,9 @@ public int sumOfLeftLeaves(TreeNode root, boolean isLeft) {
 ## Related Problems
 - LeetCode 112: Path Sum
 - LeetCode 113: Path Sum II
-- LeetCode 129: Sum Root to Leaf Numbers
-- LeetCode 100: Same Tree
-- LeetCode 101: Symmetric Tree
-
+- [Sum Root to Leaf Numbers](../sumroottoleafnumbers/notes.md)
+- [Same Tree](../sametree/notes.md)
+- [Symmetric Tree](../symmetrictree/notes.md)
 ## Tags
 - Tree
 - DFS

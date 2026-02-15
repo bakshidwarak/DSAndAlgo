@@ -83,7 +83,7 @@ Level 2: ... AAACGGTA ← Found end!
 
 ## Related Problems
 - **LeetCode 127:** Word Ladder
-- **LeetCode 90:** Subsets II
+- [**LeetCode 90](../subsets/notes.md): ** Subsets II
 - **LeetCode 1258:** Synonymous Sentences
 - **LeetCode 1345:** Jump Game IV
 

@@ -177,7 +177,6 @@ public int[][] transpose(int[][] A) {
 - LeetCode 498: Diagonal Traverse
 - LeetCode 1572: Matrix Diagonal Sum
 - LeetCode 54: Spiral Matrix
-
 ## Tags
 - Array
 - Matrix

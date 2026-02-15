@@ -154,7 +154,7 @@ public int maxProfit(int[] prices) {
 - **Multiple peaks**: Correctly identifies all profit opportunities
 
 ## Related Problems
-- **121. Best Time to Buy and Sell Stock**: Can only make one transaction
+- [**121. Best Time to Buy and Sell Stock**](../buyandsellstockonce/notes.md): Can only make one transaction
 - **123. Best Time to Buy and Sell Stock III**: At most two transactions
 - **188. Best Time to Buy and Sell Stock IV**: At most k transactions
 - **309. Best Time to Buy and Sell Stock with Cooldown**: Must wait one day after selling

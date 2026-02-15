@@ -167,9 +167,9 @@ Result: 321 (reversed)
 
 ## Related Problems
 
-1. **LeetCode 125** - Valid Palindrome (String version with constraints)
-2. **LeetCode 234** - Palindrome Linked List (Linked list version)
-3. **LeetCode 516** - Longest Palindromic Subsequence (DP approach)
+1. [Valid Palindrome](../validpalindrome/notes.md)
+2. [Palindrome Linked List](../palindromelinkedlist/notes.md)
+3. [Longest Palindromic Subsequence](../longestpalindromicsubsequence/notes.md)
 4. **LeetCode 5** - Longest Palindromic Substring (String expansion)
 5. **LeetCode 131** - Palindrome Partitioning (DP/Backtracking)
 

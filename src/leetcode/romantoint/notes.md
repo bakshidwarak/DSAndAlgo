@@ -231,7 +231,6 @@ public int romanToInt(String s) {
 - 12: Integer to Roman (reverse operation)
 - 273: Integer to English Words
 - 1018: Binary Representation in the Form of Sum of Consecutive Powers
-
 ## Tags
 
 `easy` `hash-map` `string` `math` `simulation`

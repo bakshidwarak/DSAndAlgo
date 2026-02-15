@@ -204,10 +204,9 @@ private int helper(TreeNode node, int currentSum) {
 ## Related Problems
 - LeetCode 112: Path Sum
 - LeetCode 113: Path Sum II
-- LeetCode 404: Sum of Left Leaves
+- [Sum of Left Leaves](../sumofleafnodes/notes.md)
 - LeetCode 257: Binary Tree Paths
 - LeetCode 988: Smallest String Starting From Leaf
-
 ## Tags
 - Tree
 - DFS

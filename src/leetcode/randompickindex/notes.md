@@ -219,7 +219,6 @@ public class RandomPickIndexReservoir {
 2. **LeetCode 497**: Random Point in Non-overlapping Rectangles - Weighted random pick
 3. **LeetCode 710**: Random Pick with Blacklist
 4. **LeetCode 1157**: Online Majority Element In Subarray - Preprocessing for queries
-
 ## Tags
 
 - Hash Map

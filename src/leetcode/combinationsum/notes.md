@@ -160,7 +160,7 @@ public void helper(int[] nums, int start, int target,
 - **Minimum target**: target=1 with candidates [1] → [[1]]
 
 ## Related Problems
-- **40. Combination Sum II**: Each number used at most once
+- [**40. Combination Sum II**](../combinationsum2/notes.md): Each number used at most once
 - **216. Combination Sum III**: Find k numbers that sum to n
 - **377. Combination Sum IV**: Count number of combinations (order matters)
 - **77. Combinations**: Generate all k-size combinations

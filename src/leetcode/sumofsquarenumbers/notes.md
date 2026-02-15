@@ -153,11 +153,10 @@ long sum = (long) start * start + (long) end * end;
 ```
 
 ## Related Problems
-- LeetCode 167: Two Sum II - Input Array Is Sorted
-- LeetCode 15: 3Sum
+- [Two Sum II](../twosum2/notes.md) - Input Array Is Sorted
+- [3Sum](../threesum/notes.md)
 - LeetCode 1099: Two Sum Less Than K
 - LeetCode 163: Missing Ranges
-
 ## Tags
 - Math
 - Two Pointers

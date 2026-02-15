@@ -176,7 +176,6 @@ public boolean isPowerOfTwoIterative(int n) {
 4. **LeetCode 191**: Number of 1 Bits - Count set bits
 5. **LeetCode 338**: Counting Bits - Count 1s in all numbers
 6. **LeetCode 2009**: Minimum Number of Operations to Make Array Continuous - Uses power of 2
-
 ## Tags
 
 - Bit Manipulation

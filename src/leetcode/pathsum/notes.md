@@ -183,8 +183,8 @@ hasPathSum(Node(5), 22):
 1. **LeetCode 113** - Path Sum II (Return all paths, not just boolean)
 2. **LeetCode 437** - Path Sum III (Any node to any node, not root-to-leaf)
 3. **LeetCode 124** - Binary Tree Maximum Path Sum (Max path value)
-4. **LeetCode 129** - Sum Root to Leaf Numbers (Treat path as number)
-5. **LeetCode 257** - Binary Tree Paths (Return all paths as strings)
+4. [Sum Root to Leaf Numbers](../sumroottoleafnumbers/notes.md)
+5. [Binary Tree Paths](../binarytreepaths/notes.md)
 
 ## Tags
 
