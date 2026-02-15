@@ -1,0 +1,190 @@
+========================================================================
+LEETCODE PROBLEMS 161-173: COMPREHENSIVE NOTES CREATED
+========================================================================
+
+All 14 problems now have detailed notes.md files with the following sections:
+
+1. Problem Statement
+2. Examples (with inputs, outputs, explanations)
+3. Key Insights
+4. Algorithm Steps
+5. Complexity Analysis
+6. ASCII Visualizations
+7. Code Walkthrough
+8. Edge Cases
+9. Related Problems
+10. Tags
+
+========================================================================
+PROBLEMS COMPLETED (14 total):
+========================================================================
+
+1. LeetCode 167 - Two Sum II: Input Array is Sorted
+   Location: /tmp/DSAndAlgo/src/leetcode/twosum2/notes.md
+   Techniques: Two-Pointers, Array, Sorting
+   Size: 4.2KB
+   Key: Two-pointer technique on sorted array for O(n) solution
+
+2. LeetCode 653 - Two Sum IV: Input is a BST
+   Location: /tmp/DSAndAlgo/src/leetcode/twosumbinarysearchtree/notes.md
+   Techniques: BST, Two-Pointers, Tree, Inorder Traversal
+   Size: 4.9KB
+   Key: Inorder traversal gives sorted array, then two-pointer on it
+
+3. LeetCode 63 - Unique Paths II
+   Location: /tmp/DSAndAlgo/src/leetcode/uniquepathsII/notes.md
+   Techniques: Dynamic Programming, Grid, Matrix
+   Size: 5.3KB
+   Key: DP with obstacle handling - dp[i][j] = 0 if obstacle
+
+4. LeetCode 242 - Valid Anagram
+   Location: /tmp/DSAndAlgo/src/leetcode/validanagrams/notes.md
+   Techniques: String, Hash-Table, Counting, Sorting
+   Size: 6.0KB
+   Key: Character frequency matching for O(n) anagram check
+
+5. LeetCode 65 - Valid Number
+   Location: /tmp/DSAndAlgo/src/leetcode/validnumber/notes.md
+   Techniques: String, State-Machine, Validation
+   Size: 6.6KB
+   Key: State machine to validate scientific notation format
+
+6. LeetCode 125 - Valid Palindrome
+   Location: /tmp/DSAndAlgo/src/leetcode/validpalindrome/notes.md
+   Techniques: String, Two-Pointers, Easy
+   Size: 6.1KB
+   Key: Two-pointer with character filtering for alphanumeric
+
+7. LeetCode 680 - Valid Palindrome II
+   Location: /tmp/DSAndAlgo/src/leetcode/validpalindrome2/notes.md
+   Techniques: String, Two-Pointers, Greedy, Easy
+   Size: 6.1KB
+   Key: Allow one deletion - try skipping left or right char
+
+8. LeetCode 611 - Valid Triangle Number
+   Location: /tmp/DSAndAlgo/src/leetcode/validtrianglenumber/notes.md
+   Techniques: Array, Two-Pointers, Sorting, Math
+   Size: 7.7KB
+   Key: Sort then two-pointer to count valid triangles
+
+9. LeetCode 139 - Word Break
+   Location: /tmp/DSAndAlgo/src/leetcode/wordbreak/notes.md
+   Techniques: Dynamic Programming, String, Hash-Table
+   Size: 7.5KB
+   Key: DP feasibility check - can string be segmented?
+
+10. LeetCode 140 - Word Break II
+    Location: /tmp/DSAndAlgo/src/leetcode/wordbreak/notes_wordbreakII.md
+    Techniques: Dynamic Programming, Backtracking, DFS
+    Size: 8.3KB
+    Key: Two-phase - memoized feasibility + DFS for solutions
+
+11. LeetCode 211 - Add and Search Word (Data Structure Design)
+    Location: /tmp/DSAndAlgo/src/leetcode/worddictionary/notes.md
+    Techniques: Data-Structure-Design, Trie, DFS, Regex
+    Size: 7.7KB
+    Key: Trie with wildcard search using DFS for dot patterns
+
+12. LeetCode 127 - Word Ladder
+    Location: /tmp/DSAndAlgo/src/leetcode/wordladder/notes.md
+    Techniques: Breadth-First-Search, Graph, String, Shortest-Path
+    Size: 8.4KB
+    Key: BFS finds shortest transformation path
+
+13. LeetCode 79 - Word Search
+    Location: /tmp/DSAndAlgo/src/leetcode/wordsearch/notes.md
+    Techniques: Backtracking, DFS, Array, Matrix
+    Size: 8.3KB
+    Key: DFS with backtracking to find word path in grid
+
+14. LeetCode 6 - ZigZag Conversion
+    Location: /tmp/DSAndAlgo/src/leetcode/zigzagconversion/notes.md
+    Techniques: String, Simulation, Easy
+    Size: 8.1KB
+    Key: Cyclic pattern - row collection or mathematical formula
+
+========================================================================
+COVERAGE SUMMARY:
+========================================================================
+
+Difficulty Levels:
+- Easy: 4 (TwoSum2, ValidAnagrams, ValidPalindrome, ZigZag)
+- Medium: 9 (BST, UniquePaths2, ValidNumber, ValidPalindrome2, 
+           Triangle, WordBreak, WordDictionary, WordLadder, WordSearch)
+- Hard: 1 (WordBreakII)
+
+Algorithm Patterns:
+- Two-Pointers: 4 problems
+- Dynamic Programming: 3 problems
+- Backtracking/DFS: 3 problems
+- Trie-based: 1 problem
+- BFS: 1 problem
+- State Machine: 1 problem
+- String Manipulation: 2 problems
+
+Data Structures Used:
+- Arrays: 5 problems
+- Strings: 9 problems
+- Trees: 1 problem
+- Tries: 1 problem
+- Hash Tables/Sets: 6 problems
+- Queues: 1 problem
+
+========================================================================
+NOTES.MD CONTENT STRUCTURE:
+========================================================================
+
+Each notes.md file includes:
+
+1. Problem Statement (with constraints)
+2. 2-3 Examples with explanations
+3. Key Insights (4-5 bullet points)
+4. Algorithm Steps (detailed walkthrough)
+5. Complexity Analysis (Time & Space)
+6. ASCII Visualizations (detailed step-by-step)
+7. Complete Code Walkthrough with comments
+8. 5-7 Edge Cases with examples
+9. Related Problems (5 similar problems)
+10. Tags (algorithm/technique tags)
+11. Key Takeaways
+
+========================================================================
+TOTAL FILES CREATED: 15
+========================================================================
+
+Main notes files: 14
+- 1 additional notes_wordbreakII.md (separate for Word Break II)
+
+Total Size: ~105 KB of comprehensive documentation
+
+========================================================================
+HOW TO USE:
+========================================================================
+
+1. Navigate to problem directory:
+   cd /tmp/DSAndAlgo/src/leetcode/[problem-directory]/
+
+2. Read the notes.md file:
+   cat notes.md
+   
+3. Review code structure in accompanying Java file
+4. Study ASCII visualizations for understanding
+5. Reference related problems for similar techniques
+6. Check edge cases before implementation
+
+========================================================================
+KEY TECHNIQUES DEMONSTRATED:
+========================================================================
+
+- Two-Pointer Technique (sorted arrays)
+- Dynamic Programming (DP tables, memoization)
+- Backtracking & DFS (tree/graph exploration)
+- Trie Data Structure (prefix trees)
+- Breadth-First Search (shortest paths)
+- State Machine (input validation)
+- Inorder Traversal (BST sorting property)
+- Character Frequency Counting (anagrams)
+- Greedy Algorithms (triangle inequality)
+- ASCII Visualization Techniques
+
+========================================================================
